@@ -1,0 +1,46 @@
+{
+    "wordPackName": "Japanese Foods",
+    "wordPairs": [
+        {
+            "word": "Tabemono",
+            "meaning": "Food"
+        },
+        {
+            "word": "Pan",
+            "meaning": "Bread"
+        },
+        {
+            "word": "Tamago",
+            "meaning": "Egg"
+        },
+        {
+            "word": "Gyuunyuu",
+            "meaning": "Milk"
+        },
+        {
+            "word": "Shio",
+            "meaning": "Salt"
+        },
+        {
+            "word": "Kudamono",
+            "meaning": "Fruit"
+        },
+        {
+            "word": "Yasai",
+            "meaning": "Vegetables"
+        },
+        {
+            "word": "Komugiko",
+            "meaning": "Flour"
+        },
+        {
+            "word": "Sarada",
+            "meaning": "Salad"
+        },
+        {
+            "word": "Suteeki",
+            "meaning": "Steak"
+        }
+    ],
+    "$type": "WordPack"
+}

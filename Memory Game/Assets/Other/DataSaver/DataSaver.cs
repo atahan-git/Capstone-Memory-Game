@@ -11,7 +11,7 @@ public class DataSaver {
 
 	public static DataSaver s;
 
-	private SaveFile activeSave;
+	public SaveFile activeSave;
 	public const string saveName = "save.data";
 
 	public bool loadingComplete = false;
@@ -131,21 +131,67 @@ public class DataSaver {
 		public List<UserWordPairProgress> wordPairData = new List<UserWordPairProgress>();
 
 		public UserWordPairProgress GetWordPairData (int index) {
-			if (wordPairData.Count > index) {
-				return wordPairData[index];
+			var dat = wordPairData;
+			if (dat.Count > index) {
+				return dat[index];
 			} else {
-				while (wordPairData.Count <= index) {
-					wordPairData.Add(new UserWordPairProgress());
+				while (dat.Count <= index) {
+					dat.Add(new UserWordPairProgress());
 				}
-				return wordPairData[index];
+				return dat[index];
 			}
+		}
+		
+		public List<UserWordPairProgress> GetWordPairData () {
+			return wordPairData;
 		}
 	}
 	
 	[Serializable]
 	public class UserWordPairProgress {
-		public int type = 0; // 0=new, 1=learning, 2=review, 3=relearning
+		public int type = 0; // 0=new, 1=learning
+		
+		public long meaningSide_lastRecallUtcFiletime;
+		public long foreignSide_lastRecallUtcFiletime;
+		public int meaningSide_correctRecallCount;
+		public int foreignSide_correctRecallCount;
+		public int meaningSide_wrongRecallCount;
+		public int foreignSide_wrongRecallCount;
+
+		public long GetLastRecallUtcFileTime(bool isMeaningSide) {
+			return isMeaningSide ? meaningSide_lastRecallUtcFiletime : foreignSide_lastRecallUtcFiletime;
+		}
+
+		public int GetCorrect(bool isMeaningSide) {
+			return isMeaningSide ? meaningSide_correctRecallCount : foreignSide_correctRecallCount;
+		}
+
+		public int GetWrong(bool isMeaningSide) {
+			return isMeaningSide ? meaningSide_wrongRecallCount : foreignSide_wrongRecallCount;
+		}
+		
+		public void SetLastRecallUtcFileTime(bool isMeaningSide, long value) {
+			if (isMeaningSide) {
+				meaningSide_lastRecallUtcFiletime = value;
+			} else {
+				foreignSide_lastRecallUtcFiletime = value;
+			}
+		}
+
+		public void Increment(bool isMeaningSide, bool isCorrect) {
+			if (isCorrect) {
+				if (isMeaningSide) {
+					meaningSide_correctRecallCount += 1;
+				} else {
+					foreignSide_correctRecallCount += 1;
+				}
+			} else {
+				if (isMeaningSide) {
+					meaningSide_wrongRecallCount += 1;
+				} else {
+					foreignSide_wrongRecallCount += 1;
+				}
+			}
+		}
 	}
-
-
 }
