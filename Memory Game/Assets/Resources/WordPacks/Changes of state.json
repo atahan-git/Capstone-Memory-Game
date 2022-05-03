@@ -1,0 +1,132 @@
+{
+    "wordPackName": "Changes of state",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "aku",
+            "meaning": "to become unoccupied"
+        },
+        {
+            "id": 1,
+            "word": "komu",
+            "meaning": "to be crowded"
+        },
+        {
+            "id": 2,
+            "word": "iru",
+            "meaning": "to need"
+        },
+        {
+            "id": 3,
+            "word": "kawaku",
+            "meaning": "to become dry"
+        },
+        {
+            "id": 4,
+            "word": "midasu",
+            "meaning": "to disturb, to disarrange"
+        },
+        {
+            "id": 5,
+            "word": "midareru",
+            "meaning": "to be disturbed, to become confused"
+        },
+        {
+            "id": 6,
+            "word": "tsukaeru",
+            "meaning": "to serve, to work for"
+        },
+        {
+            "id": 7,
+            "word": "sonawaru",
+            "meaning": "to be furnished with"
+        },
+        {
+            "id": 8,
+            "word": "sugureru",
+            "meaning": "to excel, to surpass"
+        },
+        {
+            "id": 9,
+            "word": "hieru",
+            "meaning": "to grow cold, to get chilly, to cool down"
+        },
+        {
+            "id": 10,
+            "word": "sameru",
+            "meaning": "to wake, to become sober, to be disillusioned"
+        },
+        {
+            "id": 11,
+            "word": "sameru",
+            "meaning": "to cool down"
+        },
+        {
+            "id": 12,
+            "word": "muku",
+            "meaning": "to face, to turn toward"
+        },
+        {
+            "id": 13,
+            "word": "taoreru",
+            "meaning": "to fall, to collapse"
+        },
+        {
+            "id": 14,
+            "word": "katamaru",
+            "meaning": "to harden, to solidify, to become firm"
+        },
+        {
+            "id": 15,
+            "word": "umaru",
+            "meaning": "to be filled, to be surrounded, to overflow"
+        },
+        {
+            "id": 16,
+            "word": "umoreru",
+            "meaning": "to be buried, to be covered"
+        },
+        {
+            "id": 17,
+            "word": "masu",
+            "meaning": "to increase, to grow"
+        },
+        {
+            "id": 18,
+            "word": "fueru",
+            "meaning": "to increase, to multiply"
+        },
+        {
+            "id": 19,
+            "word": "heru",
+            "meaning": "to decrease"
+        },
+        {
+            "id": 20,
+            "word": "hazureru",
+            "meaning": "to deviate"
+        },
+        {
+            "id": 21,
+            "word": "futoru",
+            "meaning": "to grow fat"
+        },
+        {
+            "id": 22,
+            "word": "hajimaru",
+            "meaning": "to begin"
+        },
+        {
+            "id": 23,
+            "word": "owaru",
+            "meaning": "to finish, to close"
+        },
+        {
+            "id": 24,
+            "word": "kimeru",
+            "meaning": "to decide"
+        }
+    ],
+    "$type": "WordPack"
+}

@@ -1,0 +1,37 @@
+{
+    "wordPackName": "Work",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "tsukau",
+            "meaning": "to use"
+        },
+        {
+            "id": 1,
+            "word": "tsukuru",
+            "meaning": "to make"
+        },
+        {
+            "id": 2,
+            "word": "naosu",
+            "meaning": "to fix, repair"
+        },
+        {
+            "id": 3,
+            "word": "suteru",
+            "meaning": "to discard, throw away"
+        },
+        {
+            "id": 4,
+            "word": "toru",
+            "meaning": "to take"
+        },
+        {
+            "id": 5,
+            "word": "oku",
+            "meaning": "to put"
+        }
+    ],
+    "$type": "WordPack"
+}

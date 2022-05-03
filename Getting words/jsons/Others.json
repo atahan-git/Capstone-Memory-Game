@@ -1,0 +1,58 @@
+{
+    "wordPackName": "Others",
+    "wordPairs": [
+        {
+            "word": "e",
+            "meaning": "picture"
+        },
+        {
+            "word": "ongaku",
+            "meaning": "music"
+        },
+        {
+            "word": "rika",
+            "meaning": "science"
+        },
+        {
+            "word": "sansuu",
+            "meaning": "arithmetic"
+        },
+        {
+            "word": "rekishi",
+            "meaning": "history"
+        },
+        {
+            "word": "chiri",
+            "meaning": "geography"
+        },
+        {
+            "word": "taiiku",
+            "meaning": "physical education"
+        },
+        {
+            "word": "supootsu",
+            "meaning": "sport"
+        },
+        {
+            "word": "shisutemu",
+            "meaning": "system"
+        },
+        {
+            "word": "joohoo",
+            "meaning": "information, news"
+        },
+        {
+            "word": "hitsuyoo",
+            "meaning": "necessity"
+        },
+        {
+            "word": "benkyoo",
+            "meaning": "study"
+        },
+        {
+            "word": "irai",
+            "meaning": "request"
+        }
+    ],
+    "$type": "WordPack"
+}

@@ -1,0 +1,72 @@
+{
+    "wordPackName": "Others",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "e",
+            "meaning": "picture"
+        },
+        {
+            "id": 1,
+            "word": "ongaku",
+            "meaning": "music"
+        },
+        {
+            "id": 2,
+            "word": "rika",
+            "meaning": "science"
+        },
+        {
+            "id": 3,
+            "word": "sansuu",
+            "meaning": "arithmetic"
+        },
+        {
+            "id": 4,
+            "word": "rekishi",
+            "meaning": "history"
+        },
+        {
+            "id": 5,
+            "word": "chiri",
+            "meaning": "geography"
+        },
+        {
+            "id": 6,
+            "word": "taiiku",
+            "meaning": "physical education"
+        },
+        {
+            "id": 7,
+            "word": "supootsu",
+            "meaning": "sport"
+        },
+        {
+            "id": 8,
+            "word": "shisutemu",
+            "meaning": "system"
+        },
+        {
+            "id": 9,
+            "word": "joohoo",
+            "meaning": "information, news"
+        },
+        {
+            "id": 10,
+            "word": "hitsuyoo",
+            "meaning": "necessity"
+        },
+        {
+            "id": 11,
+            "word": "benkyoo",
+            "meaning": "study"
+        },
+        {
+            "id": 12,
+            "word": "irai",
+            "meaning": "request"
+        }
+    ],
+    "$type": "WordPack"
+}

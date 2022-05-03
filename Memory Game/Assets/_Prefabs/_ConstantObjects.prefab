@@ -81,7 +81,7 @@ GameObject:
   - component: {fileID: 2081379232}
   m_Layer: 0
   m_Name: Camera
-  m_TagString: Untagged
+  m_TagString: MainCamera
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -110,7 +110,7 @@ Camera:
   m_Enabled: 1
   serializedVersion: 2
   m_ClearFlags: 2
-  m_BackGroundColor: {r: 0.2830189, g: 0.2830189, b: 0.2830189, a: 0}
+  m_BackGroundColor: {r: 0.20392159, g: 0.16078432, b: 0.21568629, a: 1}
   m_projectionMatrixMode: 1
   m_GateFitMode: 2
   m_FOVAxisMode: 0
@@ -367,6 +367,44 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
+--- !u!1 &1489301259647186565
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5631357428548590392}
+  m_Layer: 5
+  m_Name: Loading Bar
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &5631357428548590392
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1489301259647186565}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children:
+  - {fileID: 3360501470772946989}
+  - {fileID: 9145646442212926831}
+  - {fileID: 9145646442411241332}
+  m_Father: {fileID: 9145646441557297643}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 485.05, y: 104.826}
+  m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &4625448324285579154
 GameObject:
   m_ObjectHideFlags: 0
@@ -532,13 +570,13 @@ RectTransform:
   m_Children:
   - {fileID: 4456489374525390194}
   - {fileID: 2890394000303405019}
-  m_Father: {fileID: 9145646441557297643}
-  m_RootOrder: 2
+  m_Father: {fileID: 5631357428548590392}
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -147.31866, y: 4.473633}
-  m_SizeDelta: {x: 294.6373, y: 8.9473}
+  m_AnchorMin: {x: 0, y: 0}
+  m_AnchorMax: {x: 1, y: 0.2}
+  m_AnchoredPosition: {x: 0, y: -1.4957886}
+  m_SizeDelta: {x: 0, y: -2.9915962}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &8013432717926989260
 MonoBehaviour:
@@ -652,6 +690,7 @@ GameObject:
   - component: {fileID: 8081114870481788563}
   - component: {fileID: 9145646442302266642}
   - component: {fileID: 9145646442520012597}
+  - component: {fileID: 900800758}
   m_Layer: 0
   m_Name: _ConstantObjects
   m_TagString: Untagged
@@ -690,9 +729,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   myDataSaver:
-    activeSave:
-      isRealSaveFile: 0
-      wordPackData: []
     loadingComplete: 0
     dontSave: 0
 --- !u!114 &8081114870481788563
@@ -707,7 +743,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: feb3c6bc380ea0440b08dfcafef04f45, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainScene:
+  ScreenSpaceCanvasCamera: {fileID: 2081379230}
+  mainMenu:
+    sceneAsset: {fileID: 102900000, guid: 52490dd33fc556848bcc9a01ef36941e, type: 3}
+    scenePath: Assets/Scenes/Main Menu.unity
+  playScene:
     sceneAsset: {fileID: 102900000, guid: e618916241a27f24b836a183a5f76f5a, type: 3}
     scenePath: Assets/Scenes/Play Scene.unity
   initialScene:
@@ -743,12 +783,28 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdaa9293cf383664abb380399271b1a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultWordPacks:
-  - {fileID: 4900000, guid: 67b8768ce1e45794e94e36ee88902236, type: 3}
-  - {fileID: 4900000, guid: c622926cf1722fe479a9de39ad065591, type: 3}
-  - {fileID: 4900000, guid: 9d0ebfd68a83ec24a9d3b8c1c606bad2, type: 3}
   allWordPacks: []
   loadedWordPacksText: {fileID: 3393738298051602636}
+--- !u!114 &900800758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8081114870481788562}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 36b496a1cbff4c3d8a60ac9aaa5b1634, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  elementColors:
+  - {r: 0.69803923, g: 0, b: 0.6313726, a: 1}
+  - {r: 0.69803923, g: 0, b: 0, a: 1}
+  - {r: 0, g: 0.454902, b: 0.69803923, a: 1}
+  spells:
+  - {fileID: 4370846797803731550, guid: 029cce2a0d04b964e882df6f10e15a40, type: 3}
+  - {fileID: 8796812447768321622, guid: e76711f6aadee4a4d98261701b4b659d, type: 3}
+  - {fileID: 3062618864036608477, guid: a5fcb75ec895591439b215c11336a39d, type: 3}
 --- !u!1 &9145646441075314872
 GameObject:
   m_ObjectHideFlags: 0
@@ -910,7 +966,7 @@ GameObject:
   - component: {fileID: 9145646441557297645}
   - component: {fileID: 9145646441557297644}
   m_Layer: 5
-  m_Name: Image
+  m_Name: BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -927,9 +983,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
-  - {fileID: 9145646442411241332}
-  - {fileID: 9145646442212926831}
-  - {fileID: 3360501470772946989}
+  - {fileID: 5631357428548590392}
   m_Father: {fileID: 9145646443050892268}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1035,7 +1089,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 10
   m_TargetDisplay: 0
 --- !u!114 &9145646441969602904
 MonoBehaviour:
@@ -1102,17 +1156,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9145646442212926830}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 9145646441557297643}
+  m_Father: {fileID: 5631357428548590392}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -100.3999, y: 32.600006}
-  m_SizeDelta: {x: 362.9, y: 50}
+  m_AnchorMin: {x: 0, y: 0.2}
+  m_AnchorMax: {x: 0.8, y: 1}
+  m_AnchoredPosition: {x: 6.5775146, y: 7.299}
+  m_SizeDelta: {x: -13.155, y: -15.277}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9145646442212926817
 CanvasRenderer:
@@ -1169,10 +1223,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 61.35
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
@@ -1237,17 +1291,17 @@ RectTransform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9145646442411241331}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
-  m_Father: {fileID: 9145646441557297643}
-  m_RootOrder: 0
+  m_Father: {fileID: 5631357428548590392}
+  m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 1, y: 0}
-  m_AnchorMax: {x: 1, y: 0}
-  m_AnchoredPosition: {x: -35.6, y: 35.1}
-  m_SizeDelta: {x: 45, y: 45}
+  m_AnchorMin: {x: 0.8, y: 0.2}
+  m_AnchorMax: {x: 0.95, y: 1}
+  m_AnchoredPosition: {x: 0, y: 0}
+  m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &9145646442411241335
 CanvasRenderer:
@@ -1279,7 +1333,7 @@ MonoBehaviour:
       m_Calls: []
   m_Sprite: {fileID: 21300000, guid: 701b0bdd1775418458d8ad23759fea98, type: 3}
   m_Type: 0
-  m_PreserveAspect: 0
+  m_PreserveAspect: 1
   m_FillCenter: 1
   m_FillMethod: 4
   m_FillAmount: 1
@@ -1357,9 +1411,9 @@ Canvas:
   m_OverrideSorting: 0
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 1
   m_SortingLayerID: 0
-  m_SortingOrder: 1
+  m_SortingOrder: 8
   m_TargetDisplay: 0
 --- !u!114 &9145646443050892266
 MonoBehaviour:

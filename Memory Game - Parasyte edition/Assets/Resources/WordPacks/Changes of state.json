@@ -1,0 +1,106 @@
+{
+    "wordPackName": "Changes of state",
+    "wordPairs": [
+        {
+            "word": "aku",
+            "meaning": "to become unoccupied"
+        },
+        {
+            "word": "komu",
+            "meaning": "to be crowded"
+        },
+        {
+            "word": "iru",
+            "meaning": "to need"
+        },
+        {
+            "word": "kawaku",
+            "meaning": "to become dry"
+        },
+        {
+            "word": "midasu",
+            "meaning": "to disturb, to disarrange"
+        },
+        {
+            "word": "midareru",
+            "meaning": "to be disturbed, to become confused"
+        },
+        {
+            "word": "tsukaeru",
+            "meaning": "to serve, to work for"
+        },
+        {
+            "word": "sonawaru",
+            "meaning": "to be furnished with"
+        },
+        {
+            "word": "sugureru",
+            "meaning": "to excel, to surpass"
+        },
+        {
+            "word": "hieru",
+            "meaning": "to grow cold, to get chilly, to cool down"
+        },
+        {
+            "word": "sameru",
+            "meaning": "to wake, to become sober, to be disillusioned"
+        },
+        {
+            "word": "sameru",
+            "meaning": "to cool down"
+        },
+        {
+            "word": "muku",
+            "meaning": "to face, to turn toward"
+        },
+        {
+            "word": "taoreru",
+            "meaning": "to fall, to collapse"
+        },
+        {
+            "word": "katamaru",
+            "meaning": "to harden, to solidify, to become firm"
+        },
+        {
+            "word": "umaru",
+            "meaning": "to be filled, to be surrounded, to overflow"
+        },
+        {
+            "word": "umoreru",
+            "meaning": "to be buried, to be covered"
+        },
+        {
+            "word": "masu",
+            "meaning": "to increase, to grow"
+        },
+        {
+            "word": "fueru",
+            "meaning": "to increase, to multiply"
+        },
+        {
+            "word": "heru",
+            "meaning": "to decrease"
+        },
+        {
+            "word": "hazureru",
+            "meaning": "to deviate"
+        },
+        {
+            "word": "futoru",
+            "meaning": "to grow fat"
+        },
+        {
+            "word": "hajimaru",
+            "meaning": "to begin"
+        },
+        {
+            "word": "owaru",
+            "meaning": "to finish, to close"
+        },
+        {
+            "word": "kimeru",
+            "meaning": "to decide"
+        }
+    ],
+    "$type": "WordPack"
+}

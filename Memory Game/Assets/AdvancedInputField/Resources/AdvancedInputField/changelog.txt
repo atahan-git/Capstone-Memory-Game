@@ -1,0 +1,11 @@
+2.1.5:
+- Bugfix: Fixed invalid string issue when setting text containing emoji from code
+- Bugfix: Fixed issue that keyboard didn't hide when selected inputfield was getting destroyed
+- Bugfix: Changed KeepActionBarWithinBounds() method to calculate in screen space to fix issues with camera offsets
+- Bugfix: Fixed ActionBar not showing when holding when the cursor is currently next to space character or other special character
+- Bugfix iOS: Fix to make some autofill iOS inputfields accept third party keyboards too
+- Bugfix Standalone: Fixed OnTextTap event not triggered on Standalone platform
+- Feature: Added "selectionBehindText" property to control whether the text selection should be rendered behind or in front of the text
+- Feature: Implemented emoji character limit filter
+- Feature: Added PasswordMaskingCharacter property to GlobalSettings
+- Feature: Added OnActionBarAction event

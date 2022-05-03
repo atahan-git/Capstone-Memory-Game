@@ -1,0 +1,57 @@
+{
+    "wordPackName": "Feelings",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "ureshii",
+            "meaning": "happy"
+        },
+        {
+            "id": 1,
+            "word": "tanoshii",
+            "meaning": "fun"
+        },
+        {
+            "id": 2,
+            "word": "kanashii",
+            "meaning": "sad"
+        },
+        {
+            "id": 3,
+            "word": "sabishii",
+            "meaning": "lonely"
+        },
+        {
+            "id": 4,
+            "word": "samishii",
+            "meaning": "sad, lonely"
+        },
+        {
+            "id": 5,
+            "word": "kowai",
+            "meaning": "scary"
+        },
+        {
+            "id": 6,
+            "word": "itai",
+            "meaning": "painful"
+        },
+        {
+            "id": 7,
+            "word": "kayui",
+            "meaning": "itchy"
+        },
+        {
+            "id": 8,
+            "word": "kusai",
+            "meaning": "stinky"
+        },
+        {
+            "id": 9,
+            "word": "tsurai",
+            "meaning": "painful, heart-breaking"
+        }
+    ],
+    "$type": "WordPack"
+}

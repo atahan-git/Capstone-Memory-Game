@@ -1,0 +1,70 @@
+{
+    "wordPackName": "Stationery",
+    "wordPairs": [
+        {
+            "word": "inku",
+            "meaning": "ink"
+        },
+        {
+            "word": "pen",
+            "meaning": "pen"
+        },
+        {
+            "word": "boorupen",
+            "meaning": "ball-point pen"
+        },
+        {
+            "word": "mannenhitsu",
+            "meaning": "fountain pen"
+        },
+        {
+            "word": "enpitsu",
+            "meaning": "pencil"
+        },
+        {
+            "word": "fude",
+            "meaning": "brush for writing or painting"
+        },
+        {
+            "word": "chooku",
+            "meaning": "chalk"
+        },
+        {
+            "word": "keshigomu",
+            "meaning": "eraser"
+        },
+        {
+            "word": "enpitsu-kezuri",
+            "meaning": "pencil sharpener"
+        },
+        {
+            "word": "joogi",
+            "meaning": "ruler"
+        },
+        {
+            "word": "nooto",
+            "meaning": "notebook"
+        },
+        {
+            "word": "nikki",
+            "meaning": "diary"
+        },
+        {
+            "word": "kabaa",
+            "meaning": "book cover"
+        },
+        {
+            "word": "fuutoo",
+            "meaning": "envelope"
+        },
+        {
+            "word": "hasami",
+            "meaning": "scissors"
+        },
+        {
+            "word": "hotchikisu",
+            "meaning": "stapler"
+        }
+    ],
+    "$type": "WordPack"
+}

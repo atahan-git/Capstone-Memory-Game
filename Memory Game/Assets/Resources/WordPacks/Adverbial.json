@@ -1,0 +1,102 @@
+{
+    "wordPackName": "Adverbial",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "koso",
+            "meaning": "emphasis"
+        },
+        {
+            "id": 1,
+            "word": "sae",
+            "meaning": "even"
+        },
+        {
+            "id": 2,
+            "word": "shika",
+            "meaning": "only"
+        },
+        {
+            "id": 3,
+            "word": "sura",
+            "meaning": "even"
+        },
+        {
+            "id": 4,
+            "word": "kurai",
+            "meaning": "approximately, about"
+        },
+        {
+            "id": 5,
+            "word": "dake",
+            "meaning": "only, as much as"
+        },
+        {
+            "id": 6,
+            "word": "datte",
+            "meaning": "however"
+        },
+        {
+            "id": 7,
+            "word": "ttara [colloquial form of to ittara",
+            "meaning": "casual topic marker"
+        },
+        {
+            "id": 8,
+            "word": "tte",
+            "meaning": "said that"
+        },
+        {
+            "id": 9,
+            "word": "demo",
+            "meaning": "also, or"
+        },
+        {
+            "id": 10,
+            "word": "particle used to indicate that what precedes it is an extreme example and strongly negates it",
+            "meaning": ""
+        },
+        {
+            "id": 11,
+            "word": "nado",
+            "meaning": "for example"
+        },
+        {
+            "id": 12,
+            "word": "nara",
+            "meaning": "if [for verbs]; subject marker [for nouns]"
+        },
+        {
+            "id": 13,
+            "word": "nanka",
+            "meaning": "casual undervalue, dislike, lack"
+        },
+        {
+            "id": 14,
+            "word": "nante",
+            "meaning": "casual undervalue, dislike, lack"
+        },
+        {
+            "id": 15,
+            "word": "wa [although ha is the hiragana used, wa is the pronunciation",
+            "meaning": "topic marker"
+        },
+        {
+            "id": 16,
+            "word": "bakari",
+            "meaning": "just, full of, only"
+        },
+        {
+            "id": 17,
+            "word": "made",
+            "meaning": "until"
+        },
+        {
+            "id": 18,
+            "word": "mo",
+            "meaning": "too, also"
+        }
+    ],
+    "$type": "WordPack"
+}

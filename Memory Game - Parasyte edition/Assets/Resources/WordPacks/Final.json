@@ -1,0 +1,30 @@
+{
+    "wordPackName": "Final",
+    "wordPairs": [
+        {
+            "word": "ne",
+            "meaning": "emphasis and question marker, equivalent to \"right?\""
+        },
+        {
+            "word": "ka",
+            "meaning": "question marker"
+        },
+        {
+            "word": "na",
+            "meaning": "the copula particle used after quasi-adjectives"
+        },
+        {
+            "word": "kashira",
+            "meaning": "I wonder"
+        },
+        {
+            "word": "sa",
+            "meaning": "-ness"
+        },
+        {
+            "word": "-kke",
+            "meaning": "particle indicating that the speaker is trying to recall some information [\"What class is next -kke?\"]"
+        }
+    ],
+    "$type": "WordPack"
+}

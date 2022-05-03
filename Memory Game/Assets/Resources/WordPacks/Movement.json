@@ -1,0 +1,37 @@
+{
+    "wordPackName": "Movement",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "iku",
+            "meaning": "to go"
+        },
+        {
+            "id": 1,
+            "word": "kuru",
+            "meaning": "to come"
+        },
+        {
+            "id": 2,
+            "word": "kaeru",
+            "meaning": "to return"
+        },
+        {
+            "id": 3,
+            "word": "aruku",
+            "meaning": "to walk"
+        },
+        {
+            "id": 4,
+            "word": "tobu",
+            "meaning": "to jump, to fly"
+        },
+        {
+            "id": 5,
+            "word": "oyogu",
+            "meaning": "to swim"
+        }
+    ],
+    "$type": "WordPack"
+}

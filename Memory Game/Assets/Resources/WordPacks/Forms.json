@@ -1,0 +1,162 @@
+{
+    "wordPackName": "Forms",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "ii, yoi",
+            "meaning": "good"
+        },
+        {
+            "id": 1,
+            "word": "sugoi",
+            "meaning": "amazing"
+        },
+        {
+            "id": 2,
+            "word": "subarashii",
+            "meaning": "wonderful"
+        },
+        {
+            "id": 3,
+            "word": "warui",
+            "meaning": "bad, inferior"
+        },
+        {
+            "id": 4,
+            "word": "takai",
+            "meaning": "expensive, high"
+        },
+        {
+            "id": 5,
+            "word": "hikui",
+            "meaning": "low"
+        },
+        {
+            "id": 6,
+            "word": "yasui",
+            "meaning": "cheap"
+        },
+        {
+            "id": 7,
+            "word": "ookii",
+            "meaning": "big"
+        },
+        {
+            "id": 8,
+            "word": "chiisai",
+            "meaning": "small"
+        },
+        {
+            "id": 9,
+            "word": "hosoi",
+            "meaning": "thin"
+        },
+        {
+            "id": 10,
+            "word": "futoi",
+            "meaning": "thick"
+        },
+        {
+            "id": 11,
+            "word": "furui",
+            "meaning": "old"
+        },
+        {
+            "id": 12,
+            "word": "atarashii",
+            "meaning": "new"
+        },
+        {
+            "id": 13,
+            "word": "wakai",
+            "meaning": "young"
+        },
+        {
+            "id": 14,
+            "word": "karui",
+            "meaning": "light, easy"
+        },
+        {
+            "id": 15,
+            "word": "omoi",
+            "meaning": "heavy"
+        },
+        {
+            "id": 16,
+            "word": "yasashii",
+            "meaning": "easy, simple"
+        },
+        {
+            "id": 17,
+            "word": "muzukashii",
+            "meaning": "difficult"
+        },
+        {
+            "id": 18,
+            "word": "yawarakai",
+            "meaning": "soft"
+        },
+        {
+            "id": 19,
+            "word": "katai",
+            "meaning": "hard"
+        },
+        {
+            "id": 20,
+            "word": "atsui",
+            "meaning": "hot"
+        },
+        {
+            "id": 21,
+            "word": "tsumetai",
+            "meaning": "cold"
+        },
+        {
+            "id": 22,
+            "word": "samui as in cold weather",
+            "meaning": "cold"
+        },
+        {
+            "id": 23,
+            "word": "oishii",
+            "meaning": "delicious"
+        },
+        {
+            "id": 24,
+            "word": "umai",
+            "meaning": "delicious, appetizing"
+        },
+        {
+            "id": 25,
+            "word": "mazui",
+            "meaning": "tastes awful"
+        },
+        {
+            "id": 26,
+            "word": "amai",
+            "meaning": "sweet"
+        },
+        {
+            "id": 27,
+            "word": "karai",
+            "meaning": "hot [spicy]"
+        },
+        {
+            "id": 28,
+            "word": "shoppai",
+            "meaning": "salty"
+        },
+        {
+            "id": 29,
+            "word": "nigai",
+            "meaning": "bitter"
+        },
+        {
+            "id": 30,
+            "word": "utsukushii",
+            "meaning": "beautiful"
+        }
+    ],
+    "$type": "WordPack"
+}

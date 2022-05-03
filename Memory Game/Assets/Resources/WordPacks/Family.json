@@ -1,0 +1,112 @@
+{
+    "wordPackName": "Family",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "kazoku",
+            "meaning": "family"
+        },
+        {
+            "id": 1,
+            "word": "ryoushin",
+            "meaning": "parents"
+        },
+        {
+            "id": 2,
+            "word": "kodomo",
+            "meaning": "children, child"
+        },
+        {
+            "id": 3,
+            "word": "chichi",
+            "meaning": "father"
+        },
+        {
+            "id": 4,
+            "word": "haha",
+            "meaning": "mother"
+        },
+        {
+            "id": 5,
+            "word": "tsuma",
+            "meaning": "wife"
+        },
+        {
+            "id": 6,
+            "word": "otto",
+            "meaning": "husband"
+        },
+        {
+            "id": 7,
+            "word": "ani",
+            "meaning": "older brother"
+        },
+        {
+            "id": 8,
+            "word": "ane",
+            "meaning": "older sister"
+        },
+        {
+            "id": 9,
+            "word": "otooto",
+            "meaning": "younger brother"
+        },
+        {
+            "id": 10,
+            "word": "imooto",
+            "meaning": "younger sister"
+        },
+        {
+            "id": 11,
+            "word": "kyoodai",
+            "meaning": "brothers, siblings"
+        },
+        {
+            "id": 12,
+            "word": "shimai",
+            "meaning": "sisters"
+        },
+        {
+            "id": 13,
+            "word": "sofu",
+            "meaning": "grandfather"
+        },
+        {
+            "id": 14,
+            "word": "sobo",
+            "meaning": "grandmother"
+        },
+        {
+            "id": 15,
+            "word": "mago",
+            "meaning": "grandchild"
+        },
+        {
+            "id": 16,
+            "word": "oji",
+            "meaning": "uncle"
+        },
+        {
+            "id": 17,
+            "word": "oba",
+            "meaning": "aunt"
+        },
+        {
+            "id": 18,
+            "word": "itoko",
+            "meaning": "cousin"
+        },
+        {
+            "id": 19,
+            "word": "mei",
+            "meaning": "niece"
+        },
+        {
+            "id": 20,
+            "word": "oi",
+            "meaning": "nephew"
+        }
+    ],
+    "$type": "WordPack"
+}

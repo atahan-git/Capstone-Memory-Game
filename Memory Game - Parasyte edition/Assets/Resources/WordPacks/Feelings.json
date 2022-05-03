@@ -1,0 +1,46 @@
+{
+    "wordPackName": "Feelings",
+    "wordPairs": [
+        {
+            "word": "ureshii",
+            "meaning": "happy"
+        },
+        {
+            "word": "tanoshii",
+            "meaning": "fun"
+        },
+        {
+            "word": "kanashii",
+            "meaning": "sad"
+        },
+        {
+            "word": "sabishii",
+            "meaning": "lonely"
+        },
+        {
+            "word": "samishii",
+            "meaning": "sad, lonely"
+        },
+        {
+            "word": "kowai",
+            "meaning": "scary"
+        },
+        {
+            "word": "itai",
+            "meaning": "painful"
+        },
+        {
+            "word": "kayui",
+            "meaning": "itchy"
+        },
+        {
+            "word": "kusai",
+            "meaning": "stinky"
+        },
+        {
+            "word": "tsurai",
+            "meaning": "painful, heart-breaking"
+        }
+    ],
+    "$type": "WordPack"
+}

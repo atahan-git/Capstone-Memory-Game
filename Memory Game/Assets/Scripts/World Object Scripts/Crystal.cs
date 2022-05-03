@@ -26,7 +26,7 @@ public class Crystal : MonoBehaviour {
         hpText.text = _monster.healthPercent.ToString("P0");
 
         if (_monster.health <= 0) {
-            SceneLoader.s.BackToMenu();
+            SceneLoader.s.LoadMenuScene();
         }
     }
 }

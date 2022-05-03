@@ -1,0 +1,30 @@
+{
+    "wordPackName": "Media",
+    "wordPairs": [
+        {
+            "word": "hon",
+            "meaning": "book"
+        },
+        {
+            "word": "kami",
+            "meaning": "paper"
+        },
+        {
+            "word": "tegami",
+            "meaning": "letter"
+        },
+        {
+            "word": "shinbun",
+            "meaning": "newspaper"
+        },
+        {
+            "word": "jisho",
+            "meaning": "dictionary"
+        },
+        {
+            "word": "pasokon",
+            "meaning": "personal computer"
+        }
+    ],
+    "$type": "WordPack"
+}

@@ -1,0 +1,42 @@
+{
+    "wordPackName": "Case",
+    "wordPairs": [
+        {
+            "word": "ga",
+            "meaning": "subject marker, but"
+        },
+        {
+            "word": "de",
+            "meaning": "at, by"
+        },
+        {
+            "word": "to",
+            "meaning": "and, with"
+        },
+        {
+            "word": "ni",
+            "meaning": "indirect object marker"
+        },
+        {
+            "word": "no",
+            "meaning": "possession marker, of"
+        },
+        {
+            "word": "made",
+            "meaning": "to"
+        },
+        {
+            "word": "kara",
+            "meaning": "from"
+        },
+        {
+            "word": "yori",
+            "meaning": "than"
+        },
+        {
+            "word": "o",
+            "meaning": "direct object marker"
+        }
+    ],
+    "$type": "WordPack"
+}

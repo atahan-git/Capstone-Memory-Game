@@ -1,0 +1,47 @@
+{
+    "wordPackName": "Language",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "moji",
+            "meaning": "letter, character, script"
+        },
+        {
+            "id": 1,
+            "word": "ji",
+            "meaning": "a letter, character"
+        },
+        {
+            "id": 2,
+            "word": "kanji",
+            "meaning": "Chinese character"
+        },
+        {
+            "id": 3,
+            "word": "hiragana",
+            "meaning": "hiragana syllabary characters"
+        },
+        {
+            "id": 4,
+            "word": "katakana",
+            "meaning": "katakana syllabary characters"
+        },
+        {
+            "id": 5,
+            "word": "suuji",
+            "meaning": "numbers"
+        },
+        {
+            "id": 6,
+            "word": "arufabetto",
+            "meaning": "alphabet"
+        },
+        {
+            "id": 7,
+            "word": "roomaji",
+            "meaning": "Roman characters, Latin script"
+        }
+    ],
+    "$type": "WordPack"
+}

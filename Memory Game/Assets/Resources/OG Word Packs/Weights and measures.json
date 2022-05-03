@@ -1,0 +1,34 @@
+{
+    "wordPackName": "Weights and measures",
+    "wordPairs": [
+        {
+            "word": "meetoru",
+            "meaning": "meter"
+        },
+        {
+            "word": "rittoru",
+            "meaning": "litre"
+        },
+        {
+            "word": "guramu",
+            "meaning": "gram"
+        },
+        {
+            "word": "kiro",
+            "meaning": "kilo-"
+        },
+        {
+            "word": "miri",
+            "meaning": "milli-"
+        },
+        {
+            "word": "senchi",
+            "meaning": "centimeter"
+        },
+        {
+            "word": "inchi",
+            "meaning": "inch"
+        }
+    ],
+    "$type": "WordPack"
+}

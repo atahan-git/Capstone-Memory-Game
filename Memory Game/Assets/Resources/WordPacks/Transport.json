@@ -1,0 +1,62 @@
+{
+    "wordPackName": "Transport",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "tetsudoo",
+            "meaning": "railway"
+        },
+        {
+            "id": 1,
+            "word": "eki",
+            "meaning": "station"
+        },
+        {
+            "id": 2,
+            "word": "hikooki",
+            "meaning": "airplane"
+        },
+        {
+            "id": 3,
+            "word": "kuukoo, hikoojoo",
+            "meaning": "airport"
+        },
+        {
+            "id": 4,
+            "word": "michi",
+            "meaning": "street, way, road"
+        },
+        {
+            "id": 5,
+            "word": "dooro",
+            "meaning": "road"
+        },
+        {
+            "id": 6,
+            "word": "basutei",
+            "meaning": "bus-stop"
+        },
+        {
+            "id": 7,
+            "word": "toori",
+            "meaning": "avenue"
+        },
+        {
+            "id": 8,
+            "word": "densha",
+            "meaning": "train"
+        },
+        {
+            "id": 9,
+            "word": "kuruma, jidoosha",
+            "meaning": "car"
+        },
+        {
+            "id": 10,
+            "word": "Jitensha",
+            "meaning": "bicycle"
+        }
+    ],
+    "$type": "WordPack"
+}

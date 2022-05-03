@@ -1,43 +1,54 @@
 {
     "wordPackName": "Japanese School",
+    "wordPackAffinity": "arcane",
     "wordPairs": [
         {
+            "id": 0,
             "word": "gakkou",
             "meaning": "School"
         },
         {
+            "id": 1,
             "word": "koukou",
             "meaning": "High School"
         },
         {
+            "id": 2,
             "word": "daigaku",
             "meaning": "University"
         },
         {
+            "id": 3,
             "word": "jugyou",
             "meaning": "Class"
         },
         {
+            "id": 4,
             "word": "kurasumeeto",
             "meaning": "classmate"
         },
         {
+            "id": 5,
             "word": "rouka",
             "meaning": "hallway"
         },
         {
+            "id": 6,
             "word": "ochiru",
             "meaning": "to fail"
         },
         {
+            "id": 7,
             "word": "ukaru",
             "meaning": "to pass"
         },
         {
+            "id": 8,
             "word": "ukeru",
             "meaning": "to take"
         },
         {
+            "id": 9,
             "word": "enpitsu",
             "meaning": "pencil"
         }

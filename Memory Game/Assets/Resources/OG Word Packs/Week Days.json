@@ -1,0 +1,34 @@
+{
+    "wordPackName": "Week Days",
+    "wordPairs": [
+        {
+            "word": "nichi-yoobi",
+            "meaning": "Sunday"
+        },
+        {
+            "word": "getsu-yoobi",
+            "meaning": "Monday"
+        },
+        {
+            "word": "ka-yoobi",
+            "meaning": "Tuesday"
+        },
+        {
+            "word": "sui-yoobi",
+            "meaning": "Wednesday"
+        },
+        {
+            "word": "moku-yoobi",
+            "meaning": "Thursday"
+        },
+        {
+            "word": "kin-yoobi",
+            "meaning": "Friday"
+        },
+        {
+            "word": "do-yoobi",
+            "meaning": "Saturday"
+        }
+    ],
+    "$type": "WordPack"
+}

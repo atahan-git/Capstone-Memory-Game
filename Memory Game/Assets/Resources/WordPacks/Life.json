@@ -1,0 +1,17 @@
+{
+    "wordPackName": "Life",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "ikimono",
+            "meaning": "living creatures"
+        },
+        {
+            "id": 1,
+            "word": "bakemono",
+            "meaning": "monster"
+        }
+    ],
+    "$type": "WordPack"
+}

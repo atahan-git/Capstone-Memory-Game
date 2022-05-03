@@ -1,0 +1,27 @@
+{
+    "wordPackName": "Senses",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "miru",
+            "meaning": "to see"
+        },
+        {
+            "id": 1,
+            "word": "kiku",
+            "meaning": "to hear, to listen"
+        },
+        {
+            "id": 2,
+            "word": "sawaru",
+            "meaning": "to touch, to feel"
+        },
+        {
+            "id": 3,
+            "word": "kagu",
+            "meaning": "to smell"
+        }
+    ],
+    "$type": "WordPack"
+}

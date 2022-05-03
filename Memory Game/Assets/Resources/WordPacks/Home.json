@@ -1,0 +1,72 @@
+{
+    "wordPackName": "Home",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "tsukue",
+            "meaning": "desk"
+        },
+        {
+            "id": 1,
+            "word": "isu",
+            "meaning": "chair, position"
+        },
+        {
+            "id": 2,
+            "word": "tatami",
+            "meaning": "a tatami mat"
+        },
+        {
+            "id": 3,
+            "word": "to",
+            "meaning": "door, family"
+        },
+        {
+            "id": 4,
+            "word": "tobira",
+            "meaning": "door panel"
+        },
+        {
+            "id": 5,
+            "word": "doa",
+            "meaning": "door"
+        },
+        {
+            "id": 6,
+            "word": "mado",
+            "meaning": "window"
+        },
+        {
+            "id": 7,
+            "word": "futon",
+            "meaning": "futon"
+        },
+        {
+            "id": 8,
+            "word": "genkan",
+            "meaning": "entrance"
+        },
+        {
+            "id": 9,
+            "word": "ie",
+            "meaning": "house, home"
+        },
+        {
+            "id": 10,
+            "word": "erebeetaa",
+            "meaning": "elevator"
+        },
+        {
+            "id": 11,
+            "word": "esukareetaa",
+            "meaning": "escalator"
+        },
+        {
+            "id": 12,
+            "word": "denki",
+            "meaning": "electricity"
+        }
+    ],
+    "$type": "WordPack"
+}

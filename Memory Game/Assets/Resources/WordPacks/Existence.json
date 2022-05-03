@@ -1,0 +1,52 @@
+{
+    "wordPackName": "Existence",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "iru",
+            "meaning": "to exist [for animate objects]"
+        },
+        {
+            "id": 1,
+            "word": "aru",
+            "meaning": "to exist [for inanimate objects]"
+        },
+        {
+            "id": 2,
+            "word": "naru",
+            "meaning": "to become"
+        },
+        {
+            "id": 3,
+            "word": "okoru",
+            "meaning": "to occur"
+        },
+        {
+            "id": 4,
+            "word": "arawareru",
+            "meaning": "to appear"
+        },
+        {
+            "id": 5,
+            "word": "ikiru",
+            "meaning": "to live"
+        },
+        {
+            "id": 6,
+            "word": "umu",
+            "meaning": "to give birth"
+        },
+        {
+            "id": 7,
+            "word": "shinu",
+            "meaning": "to die"
+        },
+        {
+            "id": 8,
+            "word": "kowareru",
+            "meaning": "to breakin"
+        }
+    ],
+    "$type": "WordPack"
+}

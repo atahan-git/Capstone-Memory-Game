@@ -1,0 +1,38 @@
+{
+    "wordPackName": "Language",
+    "wordPairs": [
+        {
+            "word": "moji",
+            "meaning": "letter, character, script"
+        },
+        {
+            "word": "ji",
+            "meaning": "a letter, character"
+        },
+        {
+            "word": "kanji",
+            "meaning": "Chinese character"
+        },
+        {
+            "word": "hiragana",
+            "meaning": "hiragana syllabary characters"
+        },
+        {
+            "word": "katakana",
+            "meaning": "katakana syllabary characters"
+        },
+        {
+            "word": "suuji",
+            "meaning": "numbers"
+        },
+        {
+            "word": "arufabetto",
+            "meaning": "alphabet"
+        },
+        {
+            "word": "roomaji",
+            "meaning": "Roman characters, Latin script"
+        }
+    ],
+    "$type": "WordPack"
+}

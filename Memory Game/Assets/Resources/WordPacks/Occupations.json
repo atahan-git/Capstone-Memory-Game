@@ -1,0 +1,77 @@
+{
+    "wordPackName": "Occupations",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "isha",
+            "meaning": "doctor"
+        },
+        {
+            "id": 1,
+            "word": "kangoshi",
+            "meaning": "nurse"
+        },
+        {
+            "id": 2,
+            "word": "kangofu",
+            "meaning": "female nurse"
+        },
+        {
+            "id": 3,
+            "word": "shikai, ha-isha",
+            "meaning": "dentist"
+        },
+        {
+            "id": 4,
+            "word": "seijika",
+            "meaning": "politician"
+        },
+        {
+            "id": 5,
+            "word": "bengoshi",
+            "meaning": "lawyer"
+        },
+        {
+            "id": 6,
+            "word": "shouboushi",
+            "meaning": "firefighter"
+        },
+        {
+            "id": 7,
+            "word": "keisatsukan",
+            "meaning": "police officer"
+        },
+        {
+            "id": 8,
+            "word": "heishi",
+            "meaning": "soldier"
+        },
+        {
+            "id": 9,
+            "word": "kenchikuka",
+            "meaning": "architect"
+        },
+        {
+            "id": 10,
+            "word": "sensei",
+            "meaning": "teacher"
+        },
+        {
+            "id": 11,
+            "word": "academic teacher",
+            "meaning": ""
+        },
+        {
+            "id": 12,
+            "word": "kashu",
+            "meaning": "singer"
+        },
+        {
+            "id": 13,
+            "word": "enjinia",
+            "meaning": "engineer"
+        }
+    ],
+    "$type": "WordPack"
+}

@@ -1,0 +1,222 @@
+{
+    "wordPackName": "Body",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "ashi",
+            "meaning": "foot, leg"
+        },
+        {
+            "id": 1,
+            "word": "kakato",
+            "meaning": "heel"
+        },
+        {
+            "id": 2,
+            "word": "sune",
+            "meaning": "shin"
+        },
+        {
+            "id": 3,
+            "word": "hiza",
+            "meaning": "knee"
+        },
+        {
+            "id": 4,
+            "word": "momo",
+            "meaning": "thigh"
+        },
+        {
+            "id": 5,
+            "word": "atama",
+            "meaning": "head"
+        },
+        {
+            "id": 6,
+            "word": "kao",
+            "meaning": "face"
+        },
+        {
+            "id": 7,
+            "word": "kuchi",
+            "meaning": "mouth"
+        },
+        {
+            "id": 8,
+            "word": "kuchibiru",
+            "meaning": "lips"
+        },
+        {
+            "id": 9,
+            "word": "ha",
+            "meaning": "tooth"
+        },
+        {
+            "id": 10,
+            "word": "hana",
+            "meaning": "nose"
+        },
+        {
+            "id": 11,
+            "word": "me",
+            "meaning": "eye"
+        },
+        {
+            "id": 12,
+            "word": "hige",
+            "meaning": "moustache, beard"
+        },
+        {
+            "id": 13,
+            "word": "kami",
+            "meaning": "hair"
+        },
+        {
+            "id": 14,
+            "word": "mimi",
+            "meaning": "ear"
+        },
+        {
+            "id": 15,
+            "word": "onaka",
+            "meaning": "stomach"
+        },
+        {
+            "id": 16,
+            "word": "ude",
+            "meaning": "arm"
+        },
+        {
+            "id": 17,
+            "word": "hiji",
+            "meaning": "elbow"
+        },
+        {
+            "id": 18,
+            "word": "kata",
+            "meaning": "shoulder"
+        },
+        {
+            "id": 19,
+            "word": "tsume",
+            "meaning": "nail"
+        },
+        {
+            "id": 20,
+            "word": "te",
+            "meaning": "hand"
+        },
+        {
+            "id": 21,
+            "word": "tekubi",
+            "meaning": "wrist"
+        },
+        {
+            "id": 22,
+            "word": "te-no-hira",
+            "meaning": "palm of hand"
+        },
+        {
+            "id": 23,
+            "word": "yubi",
+            "meaning": "finger, toe"
+        },
+        {
+            "id": 24,
+            "word": "shiri",
+            "meaning": "buttocks"
+        },
+        {
+            "id": 25,
+            "word": "o-naka",
+            "meaning": "abdomen"
+        },
+        {
+            "id": 26,
+            "word": "kanzoo",
+            "meaning": "liver"
+        },
+        {
+            "id": 27,
+            "word": "kimo",
+            "meaning": "liver"
+        },
+        {
+            "id": 28,
+            "word": "kin'niku",
+            "meaning": "muscle"
+        },
+        {
+            "id": 29,
+            "word": "kubi",
+            "meaning": "neck"
+        },
+        {
+            "id": 30,
+            "word": "kokoro",
+            "meaning": "heart [as in feelings]"
+        },
+        {
+            "id": 31,
+            "word": "koshi",
+            "meaning": "waist, hip"
+        },
+        {
+            "id": 32,
+            "word": "shinzoo",
+            "meaning": "heart"
+        },
+        {
+            "id": 33,
+            "word": "senaka",
+            "meaning": "back"
+        },
+        {
+            "id": 34,
+            "word": "chi",
+            "meaning": "blood"
+        },
+        {
+            "id": 35,
+            "word": "niku",
+            "meaning": "meat"
+        },
+        {
+            "id": 36,
+            "word": "hada",
+            "meaning": "skin"
+        },
+        {
+            "id": 37,
+            "word": "hifu",
+            "meaning": "skin"
+        },
+        {
+            "id": 38,
+            "word": "hone",
+            "meaning": "bone"
+        },
+        {
+            "id": 39,
+            "word": "mune",
+            "meaning": "chest"
+        },
+        {
+            "id": 40,
+            "word": "kaze",
+            "meaning": "cold [illness]"
+        },
+        {
+            "id": 41,
+            "word": "geri",
+            "meaning": "diarrhea"
+        },
+        {
+            "id": 42,
+            "word": "byooki",
+            "meaning": "illness"
+        }
+    ],
+    "$type": "WordPack"
+}

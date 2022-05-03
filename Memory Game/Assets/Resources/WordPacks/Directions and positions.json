@@ -1,0 +1,97 @@
+{
+    "wordPackName": "Directions and positions",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "kita",
+            "meaning": "north"
+        },
+        {
+            "id": 1,
+            "word": "higashi",
+            "meaning": "east"
+        },
+        {
+            "id": 2,
+            "word": "minami",
+            "meaning": "south"
+        },
+        {
+            "id": 3,
+            "word": "nishi",
+            "meaning": "west"
+        },
+        {
+            "id": 4,
+            "word": "koko",
+            "meaning": "here"
+        },
+        {
+            "id": 5,
+            "word": "soko",
+            "meaning": "there"
+        },
+        {
+            "id": 6,
+            "word": "asoko",
+            "meaning": "over there"
+        },
+        {
+            "id": 7,
+            "word": "migi",
+            "meaning": "right"
+        },
+        {
+            "id": 8,
+            "word": "hidari",
+            "meaning": "left"
+        },
+        {
+            "id": 9,
+            "word": "ue",
+            "meaning": "above, up"
+        },
+        {
+            "id": 10,
+            "word": "shita",
+            "meaning": "below, down"
+        },
+        {
+            "id": 11,
+            "word": "mae",
+            "meaning": "front"
+        },
+        {
+            "id": 12,
+            "word": "ushiro",
+            "meaning": "behind"
+        },
+        {
+            "id": 13,
+            "word": "mukoo",
+            "meaning": "the other side, opposite side"
+        },
+        {
+            "id": 14,
+            "word": "naname",
+            "meaning": "diagonal"
+        },
+        {
+            "id": 15,
+            "word": "temae",
+            "meaning": "nearer, more in front"
+        },
+        {
+            "id": 16,
+            "word": "tooi",
+            "meaning": "far"
+        },
+        {
+            "id": 17,
+            "word": "chikai",
+            "meaning": "near, close"
+        }
+    ],
+    "$type": "WordPack"
+}

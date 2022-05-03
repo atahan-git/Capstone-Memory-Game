@@ -1,0 +1,37 @@
+{
+    "wordPackName": "Media",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "hon",
+            "meaning": "book"
+        },
+        {
+            "id": 1,
+            "word": "kami",
+            "meaning": "paper"
+        },
+        {
+            "id": 2,
+            "word": "tegami",
+            "meaning": "letter"
+        },
+        {
+            "id": 3,
+            "word": "shinbun",
+            "meaning": "newspaper"
+        },
+        {
+            "id": 4,
+            "word": "jisho",
+            "meaning": "dictionary"
+        },
+        {
+            "id": 5,
+            "word": "pasokon",
+            "meaning": "personal computer"
+        }
+    ],
+    "$type": "WordPack"
+}

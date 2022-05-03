@@ -1,0 +1,22 @@
+{
+    "wordPackName": "Senses",
+    "wordPairs": [
+        {
+            "word": "miru",
+            "meaning": "to see"
+        },
+        {
+            "word": "kiku",
+            "meaning": "to hear, to listen"
+        },
+        {
+            "word": "sawaru",
+            "meaning": "to touch, to feel"
+        },
+        {
+            "word": "kagu",
+            "meaning": "to smell"
+        }
+    ],
+    "$type": "WordPack"
+}

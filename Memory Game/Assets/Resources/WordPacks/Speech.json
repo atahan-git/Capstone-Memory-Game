@@ -1,0 +1,32 @@
+{
+    "wordPackName": "Speech",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "iu",
+            "meaning": "to say"
+        },
+        {
+            "id": 1,
+            "word": "hanasu",
+            "meaning": "to speak"
+        },
+        {
+            "id": 2,
+            "word": "kataru",
+            "meaning": "to tell"
+        },
+        {
+            "id": 3,
+            "word": "kaku",
+            "meaning": "to write"
+        },
+        {
+            "id": 4,
+            "word": "yomu",
+            "meaning": "to read"
+        }
+    ],
+    "$type": "WordPack"
+}

@@ -2,14 +2,15 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.IO;
+using Sirenix.OdinInspector;
 using TMPro;
 using UnityEngine;
-using UnityEngine.Networking;
 
 public class WordPackLoader : MonoBehaviour {
     public static WordPackLoader s;
-
-    public const string wordPackFolderName = "WordPacks";
+    const string wordPackFolderName = "WordPacks";
+    
+    public List<WordPack> allWordPacks = new List<WordPack>();
 
     public static string GetWordPackPath () {
         return Path.Combine(Application.persistentDataPath, wordPackFolderName);
@@ -25,16 +26,31 @@ public class WordPackLoader : MonoBehaviour {
     private void Awake() {
         if (s == null) {
             s = this;
-            
-            
             // add some checks here so that in the first load we load word packs but on the later ones we dont
             // so that the player can edit the word packs and change them/add more
+            if (DataSaver.s != null && DataSaver.s.loadingComplete) {
+                OnLoad();
+            } 
+            DataSaver.loadEvent += OnLoad;
+        }
+    }
+
+    private void OnDestroy() {
+        DataSaver.loadEvent -= OnLoad;
+    }
+
+    void OnLoad() {
+        //LoadDefaultWordPacksFromResources(); // for updating the word packs
+        if (!DataSaver.s.GetCurrentSave().isDefaultWordPacksLoaded) {
             LoadDefaultWordPacksFromResources();
+            DataSaver.s.GetCurrentSave().isDefaultWordPacksLoaded = true;
+            DataSaver.s.SaveActiveGame();
+        } else {
+            LoadWordPacks();
         }
     }
 
 
-    public List<WordPack> allWordPacks = new List<WordPack>();
     void LoadWordPacks() {
         var allPaths = GetAllWordPackPaths();
         allWordPacks = new List<WordPack>();
@@ -46,19 +62,41 @@ public class WordPackLoader : MonoBehaviour {
             var wordPack = DataSaver.ReadFile<WordPack>(allPaths[i]);
             
             Debug.Log( $"{wordPack.wordPairs.Count} words found in word pack {wordPack.wordPackName}" );
-            
+
+            FixWordPairIds(wordPack);
             allWordPacks.Add(wordPack);
         }
 
         loadedWordPacksText.text = allWordPacks.Count.ToString();
     }
 
+    void FixWordPairIds(WordPack wordPack) {
+        int n = 0;
+        bool changeWasMade = false;
+        for (int i = 0; i < wordPack.wordPairs.Count; i++) {
+            var curPair = wordPack.wordPairs[i];
+
+            if (curPair.id < 0) {
+                curPair.id = n;
+                changeWasMade = true;
+            } else {
+                n = Mathf.Max(n, curPair.id);
+            }
+            n++;
+        }
+        
+        if(changeWasMade)
+            SaveWordPack(wordPack);
+    }
+
     public TMP_Text loadedWordPacksText;
 
-    void LoadDefaultWordPacksFromResources() {
+    public void LoadDefaultWordPacksFromResources() {
         
         print("--- START LOADING WORDPACKS FROM RESOURCES");
         var wordPacks = Resources.LoadAll<TextAsset>(wordPackFolderName);
+        
+        Directory.CreateDirectory(GetWordPackPath());
 
         for (int i = 0; i < wordPacks.Length; i++) {
             var path = Path.Combine(GetWordPackPath(), wordPacks[i].name + ".json");
@@ -83,5 +121,22 @@ public class WordPackLoader : MonoBehaviour {
         var path = Path.Combine(GetWordPackPath(), wordPack.wordPackName + ".json");
         Debug.Log($"Saving Word Pack:\"{wordPack.wordPackName}\" to \"{path}\"");
         DataSaver.WriteFile(path, wordPack);
+    }
+
+    [Button()]
+    public void SaveAllWordPacksToDisk() {
+        int n = 0;
+        foreach (var wordPack in allWordPacks) {
+            if (n % 3 == 0) {
+                wordPack.wordPackAffinity = "arcane";
+            } else if(n % 3 == 1){
+                wordPack.wordPackAffinity = "fire";
+            } else {
+                wordPack.wordPackAffinity = "ice";
+            }
+
+            n++;
+            SaveWordPack(wordPack);
+        }
     }
 }

@@ -1,0 +1,132 @@
+{
+    "wordPackName": "Numbers",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "rei, zero",
+            "meaning": "zero"
+        },
+        {
+            "id": 1,
+            "word": "ichi",
+            "meaning": "one"
+        },
+        {
+            "id": 2,
+            "word": "ni",
+            "meaning": "two"
+        },
+        {
+            "id": 3,
+            "word": "san",
+            "meaning": "three"
+        },
+        {
+            "id": 4,
+            "word": "yon, shi",
+            "meaning": "four"
+        },
+        {
+            "id": 5,
+            "word": "go",
+            "meaning": "five"
+        },
+        {
+            "id": 6,
+            "word": "roku",
+            "meaning": "six"
+        },
+        {
+            "id": 7,
+            "word": "nana, shichi",
+            "meaning": "seven"
+        },
+        {
+            "id": 8,
+            "word": "hachi",
+            "meaning": "eight"
+        },
+        {
+            "id": 9,
+            "word": "kyuu, ku",
+            "meaning": "nine"
+        },
+        {
+            "id": 10,
+            "word": "juu",
+            "meaning": "ten"
+        },
+        {
+            "id": 11,
+            "word": "hyaku",
+            "meaning": "hundred"
+        },
+        {
+            "id": 12,
+            "word": "sen",
+            "meaning": "thousand"
+        },
+        {
+            "id": 13,
+            "word": "man",
+            "meaning": "ten thousand"
+        },
+        {
+            "id": 14,
+            "word": "oku",
+            "meaning": "one hundred million"
+        },
+        {
+            "id": 15,
+            "word": "hitotsu",
+            "meaning": "one, one thing"
+        },
+        {
+            "id": 16,
+            "word": "futatsu",
+            "meaning": "two, two things"
+        },
+        {
+            "id": 17,
+            "word": "mittsu",
+            "meaning": "three, three things"
+        },
+        {
+            "id": 18,
+            "word": "yottsu",
+            "meaning": "four, four things"
+        },
+        {
+            "id": 19,
+            "word": "itsutsu",
+            "meaning": "five, five things"
+        },
+        {
+            "id": 20,
+            "word": "muttsu",
+            "meaning": "six, six things"
+        },
+        {
+            "id": 21,
+            "word": "nanatsu",
+            "meaning": "seven, seven things"
+        },
+        {
+            "id": 22,
+            "word": "yattsu",
+            "meaning": "eight, eight things"
+        },
+        {
+            "id": 23,
+            "word": "kokonotsu",
+            "meaning": "nine, nine things"
+        },
+        {
+            "id": 24,
+            "word": "too",
+            "meaning": "ten, ten things"
+        }
+    ],
+    "$type": "WordPack"
+}

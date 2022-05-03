@@ -1,0 +1,52 @@
+{
+    "wordPackName": "Case",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "ga",
+            "meaning": "subject marker, but"
+        },
+        {
+            "id": 1,
+            "word": "de",
+            "meaning": "at, by"
+        },
+        {
+            "id": 2,
+            "word": "to",
+            "meaning": "and, with"
+        },
+        {
+            "id": 3,
+            "word": "ni",
+            "meaning": "indirect object marker"
+        },
+        {
+            "id": 4,
+            "word": "no",
+            "meaning": "possession marker, of"
+        },
+        {
+            "id": 5,
+            "word": "made",
+            "meaning": "to"
+        },
+        {
+            "id": 6,
+            "word": "kara",
+            "meaning": "from"
+        },
+        {
+            "id": 7,
+            "word": "yori",
+            "meaning": "than"
+        },
+        {
+            "id": 8,
+            "word": "o",
+            "meaning": "direct object marker"
+        }
+    ],
+    "$type": "WordPack"
+}

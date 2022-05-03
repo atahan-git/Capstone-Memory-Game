@@ -7,10 +7,7 @@ using UnityEngine;
 using UnityEngine.UI;
 
 public class WordSystemController : MonoBehaviour {
-	public string[] wordPackNames = new string[3];
-	public GameObject[] spells = new GameObject[3];
 	public Transform spellParent;
-
 
 	public Animator animWordDisplay;
 
@@ -29,12 +26,12 @@ public class WordSystemController : MonoBehaviour {
 	public WordPack activeWordPack;
 	public DataSaver.UserWordPackProgress activeUserProgress;
 	public bool activeSide;
-	public int currentWordIndex;
-	public int activeWordPackIndex;
+	public WordPair activeWordPair;
 	public Lane activeLane;
 	public ISpell activeSpell;
 	public int curWordCount = 0;
 	public bool isAOE = false;
+	public GameObject activeSpellPrefab;
 
 	public float wordPickTimer = 30f;
 	public float newWordTimer = 10f;
@@ -42,10 +39,13 @@ public class WordSystemController : MonoBehaviour {
 	public float correctWordTimer = 1.6f;
 	public int wordCountPerPack = 10;
 
+	public WordSystemSoundController soundController;
+
 	private void Start() {
 		ChangeShootLane(0);
 		
 		MobileKeyboardCapturer.s.StartListening(TryMatchWord);
+		MobileKeyboardCapturer.s.valueChangedCallback += OnValueChanged;
 	}
 
 	private void Update() {
@@ -54,26 +54,23 @@ public class WordSystemController : MonoBehaviour {
 		}
 	}
 
+	public void OnValueChanged(string word) {
+		soundController.MakeTypingSound();
+	}
+
 	public void ActivateWordPack(int buttonid) {
 		Debug.Log($"Activating word pack for button: {buttonid}");
 		//return;
 		StopWordMatchMode();
 		activeSide = buttonid >= 3;
-		activeWordPackIndex = buttonid - (activeSide ? 3 : 0);
+		var toActivateIndex = buttonid - (activeSide ? 3 : 0);
 		isAOE = activeSide;
-		
 
-		var packName = wordPackNames[activeWordPackIndex];
-		activeWordPack = WordPackLoader.s.allWordPacks.Find((pack => pack.wordPackName == packName));
-		
-		var index = DataSaver.s.GetCurrentSave().wordPackData.FindIndex((progress => progress.wordPackName == packName));
-		if (index != -1) {
-			activeUserProgress = DataSaver.s.GetCurrentSave().wordPackData[index];
-		} else {
-			activeUserProgress = new DataSaver.UserWordPackProgress();
-			activeUserProgress.wordPackName = packName;
-			DataSaver.s.GetCurrentSave().wordPackData.Add(activeUserProgress);
-		}
+		activeWordPack = PlayerLoadoutController.s.GetWordPackWithIndex(toActivateIndex);
+
+		activeUserProgress = DataSaver.s.GetCurrentSave().GetProgress(activeWordPack);
+
+		activeSpellPrefab = PlayerLoadoutController.s.GetSpellWithIndex(toActivateIndex);
 		
 		curWordCount = 0;
 		ActivateWordMatchMode();
@@ -91,7 +88,7 @@ public class WordSystemController : MonoBehaviour {
 		//animWordDisplay.SetTrigger("reset");
 		
 		if(isNewWordPaused)
-			MapController.s.Unpause();
+			PauseController.s.Resume();
 	}
 
 	public void BeginTimedSection() {
@@ -113,17 +110,17 @@ public class WordSystemController : MonoBehaviour {
 			StopWordMatchMode();
 			return;
 		}
-		
-		currentWordIndex = Scheduler.GetNextWordPairIndex(activeWordPack, activeUserProgress, activeSide);
 
-		var currentWord = activeWordPack.wordPairs[currentWordIndex];
-		StartCoroutine(DelayedChangeWord(currentWord));
+		
+		activeWordPair = Scheduler.GetNextWordPairIndex(activeWordPack, activeUserProgress, activeSide);
+
+		StartCoroutine(DelayedChangeWord(activeWordPair));
 		
 
-		var userWordPairProgress = activeUserProgress.GetWordPairData(currentWordIndex);
+		var userWordPairProgress = activeUserProgress.GetWordPairData(activeWordPair);
 		
 		if(activeSpell == null)
-			activeSpell = Instantiate(spells[activeWordPackIndex], spellParent).GetComponent<ISpell>();
+			activeSpell = Instantiate(activeSpellPrefab, spellParent).GetComponent<ISpell>();
 
 		if (userWordPairProgress.type == 0) {
 			NewWord();
@@ -160,9 +157,11 @@ public class WordSystemController : MonoBehaviour {
 		
 		animWordDisplay.SetTrigger("newWord");
 		
-		MapController.s.Pause();
+		PauseController.s.Pause();
 		isNewWordPaused = true;
 		timeSlider.value = 1;
+		
+		soundController.NewWordSoundEffect();
 	}
 
 
@@ -176,12 +175,15 @@ public class WordSystemController : MonoBehaviour {
 
 		timerToStart = Timer(wordPickTimer, OutOfTime);
 		BeginTimedSection();
+		
+		
+		soundController.StandardMatchSoundEffect();
 	}
 	
 	
 
 	public void CorrectMatch() {
-		Scheduler.RegisterResult(activeWordPack, activeUserProgress, currentWordIndex, activeSide, true);
+		Scheduler.RegisterResult(activeWordPack, activeUserProgress, activeWordPair, activeSide, true);
 		
 		ClearState();
 		sliderFill.color = correctColor;
@@ -196,10 +198,11 @@ public class WordSystemController : MonoBehaviour {
 		timerToStart = Timer(correctWordTimer, () => SwitchWord());
 		BeginTimedSection();
 
+		soundController.CorrectMatchSoundEffect();
 	}
 	
 	public void OutOfTime() {
-		Scheduler.RegisterResult(activeWordPack, activeUserProgress, currentWordIndex, activeSide, false);
+		Scheduler.RegisterResult(activeWordPack, activeUserProgress, activeWordPair, activeSide, false);
 		
 		ClearState();
 		sliderFill.color = wrongColor;
@@ -210,10 +213,13 @@ public class WordSystemController : MonoBehaviour {
 		
 		timerToStart = Timer(wrongWordTimer, () => SwitchWord());
 		BeginTimedSection();
+		
+		
+		soundController.OutOfTimeSoundEffect();
 	}
 
 	public void WrongMatch() {
-		Scheduler.RegisterResult(activeWordPack, activeUserProgress, currentWordIndex, activeSide, false);
+		Scheduler.RegisterResult(activeWordPack, activeUserProgress, activeWordPair, activeSide, false);
 		
 		ClearState();
 		sliderFill.color = wrongColor;
@@ -224,6 +230,8 @@ public class WordSystemController : MonoBehaviour {
 		
 		timerToStart = Timer(wrongWordTimer, () => SwitchWord());
 		BeginTimedSection();
+		
+		soundController.WrongMatchSoundEffect();
 	}
 	
 	delegate void Callback();
@@ -266,13 +274,17 @@ public class WordSystemController : MonoBehaviour {
 		if (_inputChecker != null) {
 			_inputChecker(word);
 		}
+
+		if (word.Length > 0) {
+			soundController.MakeEnterSound();
+		}
 	}
-	
-	
+
+
 	public void NewWordInputChecker(string word) {
 		if (IsMatch(word, meaningText.text)) {
-			Scheduler.RegisterResult(activeWordPack, activeUserProgress, currentWordIndex, activeSide, true);
-			MapController.s.Unpause();
+			Scheduler.RegisterResult(activeWordPack, activeUserProgress, activeWordPair, activeSide, true);
+			PauseController.s.Resume();
 			isNewWordPaused = false;
 			SwitchWord();
 		} else {

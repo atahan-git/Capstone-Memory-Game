@@ -1,0 +1,97 @@
+{
+    "wordPackName": "People",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "ningen",
+            "meaning": "human"
+        },
+        {
+            "id": 1,
+            "word": "jinrui",
+            "meaning": "humanity"
+        },
+        {
+            "id": 2,
+            "word": "hito",
+            "meaning": "person"
+        },
+        {
+            "id": 3,
+            "word": "otoko",
+            "meaning": "male"
+        },
+        {
+            "id": 4,
+            "word": "otokonohito",
+            "meaning": "man"
+        },
+        {
+            "id": 5,
+            "word": "otokonoko",
+            "meaning": "boy"
+        },
+        {
+            "id": 6,
+            "word": "onna",
+            "meaning": "female"
+        },
+        {
+            "id": 7,
+            "word": "onnanohito",
+            "meaning": "woman"
+        },
+        {
+            "id": 8,
+            "word": "onnanoko",
+            "meaning": "girl"
+        },
+        {
+            "id": 9,
+            "word": "akachan",
+            "meaning": "baby"
+        },
+        {
+            "id": 10,
+            "word": "wakamono",
+            "meaning": "youth, young person"
+        },
+        {
+            "id": 11,
+            "word": "watashi",
+            "meaning": "I, myself"
+        },
+        {
+            "id": 12,
+            "word": "watakushi [most formal]",
+            "meaning": "I, myself"
+        },
+        {
+            "id": 13,
+            "word": "boku, mainly used by males",
+            "meaning": "I, myself"
+        },
+        {
+            "id": 14,
+            "word": "ore, mainly used by males [informal]",
+            "meaning": "I, myself"
+        },
+        {
+            "id": 15,
+            "word": "atashi, mainly used by females [softer sounding]",
+            "meaning": "I, myself"
+        },
+        {
+            "id": 16,
+            "word": "shoujo",
+            "meaning": "girl"
+        },
+        {
+            "id": 17,
+            "word": "shounen",
+            "meaning": "boy"
+        }
+    ],
+    "$type": "WordPack"
+}

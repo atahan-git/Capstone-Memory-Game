@@ -1,0 +1,72 @@
+{
+    "wordPackName": "Plants",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "shokubutsu",
+            "meaning": "plants"
+        },
+        {
+            "id": 1,
+            "word": "kusa",
+            "meaning": "grass"
+        },
+        {
+            "id": 2,
+            "word": "hana",
+            "meaning": "flower"
+        },
+        {
+            "id": 3,
+            "word": "mi",
+            "meaning": "fruit"
+        },
+        {
+            "id": 4,
+            "word": "ki",
+            "meaning": "tree"
+        },
+        {
+            "id": 5,
+            "word": "ha, happa",
+            "meaning": "leaf"
+        },
+        {
+            "id": 6,
+            "word": "ne, nekko",
+            "meaning": "root"
+        },
+        {
+            "id": 7,
+            "word": "kuki",
+            "meaning": "stem"
+        },
+        {
+            "id": 8,
+            "word": "kinoko",
+            "meaning": "mushroom"
+        },
+        {
+            "id": 9,
+            "word": "kiku",
+            "meaning": "chrysanthemum"
+        },
+        {
+            "id": 10,
+            "word": "sakura",
+            "meaning": "cherry blossom"
+        },
+        {
+            "id": 11,
+            "word": "matsu",
+            "meaning": "pine tree"
+        },
+        {
+            "id": 12,
+            "word": "ume",
+            "meaning": "japanese plum or apricot"
+        }
+    ],
+    "$type": "WordPack"
+}

@@ -1,0 +1,42 @@
+{
+    "wordPackName": "Existence",
+    "wordPairs": [
+        {
+            "word": "iru",
+            "meaning": "to exist [for animate objects]"
+        },
+        {
+            "word": "aru",
+            "meaning": "to exist [for inanimate objects]"
+        },
+        {
+            "word": "naru",
+            "meaning": "to become"
+        },
+        {
+            "word": "okoru",
+            "meaning": "to occur"
+        },
+        {
+            "word": "arawareru",
+            "meaning": "to appear"
+        },
+        {
+            "word": "ikiru",
+            "meaning": "to live"
+        },
+        {
+            "word": "umu",
+            "meaning": "to give birth"
+        },
+        {
+            "word": "shinu",
+            "meaning": "to die"
+        },
+        {
+            "word": "kowareru",
+            "meaning": "to breakin"
+        }
+    ],
+    "$type": "WordPack"
+}

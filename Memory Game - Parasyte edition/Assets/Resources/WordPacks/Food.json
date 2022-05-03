@@ -1,0 +1,62 @@
+{
+    "wordPackName": "Food",
+    "wordPairs": [
+        {
+            "word": "tabemono",
+            "meaning": "food"
+        },
+        {
+            "word": "chooshoku, asagohan",
+            "meaning": "breakfast"
+        },
+        {
+            "word": "hirugohan",
+            "meaning": "lunch"
+        },
+        {
+            "word": "bangohan",
+            "meaning": "dinner"
+        },
+        {
+            "word": "gohan",
+            "meaning": "cooked rice or meal"
+        },
+        {
+            "word": "miso",
+            "meaning": "miso"
+        },
+        {
+            "word": "ryoori",
+            "meaning": "cooking"
+        },
+        {
+            "word": "sarada",
+            "meaning": "salad"
+        },
+        {
+            "word": "dezaato",
+            "meaning": "dessert"
+        },
+        {
+            "word": "pan",
+            "meaning": "bread"
+        },
+        {
+            "word": "sandoitchi",
+            "meaning": "sandwich"
+        },
+        {
+            "word": "oyatsu, kanshoku",
+            "meaning": "snack"
+        },
+        {
+            "word": "aisukuriimu",
+            "meaning": "ice cream"
+        },
+        {
+            "word": "takoyaki",
+            "meaning": "octopus dumpling"
+        }
+    ],
+    "$type": "WordPack"
+}

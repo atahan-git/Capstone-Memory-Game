@@ -1,0 +1,46 @@
+{
+    "wordPackName": "Japanese Places",
+    "wordPairs": [
+        {
+            "word": "Yuubinkyoku",
+            "meaning": "Post office"
+        },
+        {
+            "word": "shooten-gai",
+            "meaning": "Shopping center"
+        },
+        {
+            "word": "Yao-ya",
+            "meaning": "Vegetable store"
+        },
+        {
+            "word": "Suupaa",
+            "meaning": "Supermarket"
+        },
+        {
+            "word": "Kusuri-ya",
+            "meaning": "Pharmacy"
+        },
+        {
+            "word": "Hon-ya",
+            "meaning": "Bookstore"
+        },
+        {
+            "word": "Omise",
+            "meaning": "Store"
+        },
+        {
+            "word": "Okashi-ya",
+            "meaning": "Pastry shop"
+        },
+        {
+            "word": "Kutsu-ya",
+            "meaning": "Shoe shop"
+        },
+        {
+            "word": "Yoofuku-ya",
+            "meaning": "Clothing Shop"
+        }
+    ],
+    "$type": "WordPack"
+}

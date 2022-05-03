@@ -1,0 +1,102 @@
+{
+    "wordPackName": "Actions",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "ugoku",
+            "meaning": "to movein"
+        },
+        {
+            "id": 1,
+            "word": "odoru",
+            "meaning": "to dance"
+        },
+        {
+            "id": 2,
+            "word": "neru",
+            "meaning": "to sleep"
+        },
+        {
+            "id": 3,
+            "word": "utau",
+            "meaning": "to sing"
+        },
+        {
+            "id": 4,
+            "word": "kamu",
+            "meaning": "to bite"
+        },
+        {
+            "id": 5,
+            "word": "taberu",
+            "meaning": "to eat"
+        },
+        {
+            "id": 6,
+            "word": "nomu",
+            "meaning": "to drink"
+        },
+        {
+            "id": 7,
+            "word": "sawaru",
+            "meaning": "to touch"
+        },
+        {
+            "id": 8,
+            "word": "nageru",
+            "meaning": "to throw"
+        },
+        {
+            "id": 9,
+            "word": "motsu",
+            "meaning": "to hold"
+        },
+        {
+            "id": 10,
+            "word": "utsu",
+            "meaning": "to hit, to strike"
+        },
+        {
+            "id": 11,
+            "word": "naguru",
+            "meaning": "to hit, to strike"
+        },
+        {
+            "id": 12,
+            "word": "sasu",
+            "meaning": "to point"
+        },
+        {
+            "id": 13,
+            "word": "sasu",
+            "meaning": "to stab"
+        },
+        {
+            "id": 14,
+            "word": "sasu",
+            "meaning": "to raise or extend one's hands"
+        },
+        {
+            "id": 15,
+            "word": "keru",
+            "meaning": "to kick"
+        },
+        {
+            "id": 16,
+            "word": "suwaru",
+            "meaning": "to sit"
+        },
+        {
+            "id": 17,
+            "word": "tatsu",
+            "meaning": "to stand"
+        },
+        {
+            "id": 18,
+            "word": "hashiru",
+            "meaning": "to run"
+        }
+    ],
+    "$type": "WordPack"
+}

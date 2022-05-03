@@ -1,0 +1,14 @@
+{
+    "wordPackName": "Life",
+    "wordPairs": [
+        {
+            "word": "ikimono",
+            "meaning": "living creatures"
+        },
+        {
+            "word": "bakemono",
+            "meaning": "monster"
+        }
+    ],
+    "$type": "WordPack"
+}

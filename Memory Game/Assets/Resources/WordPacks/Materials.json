@@ -1,0 +1,92 @@
+{
+    "wordPackName": "Materials",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "mizu",
+            "meaning": "water"
+        },
+        {
+            "id": 1,
+            "word": "yu",
+            "meaning": "hot water"
+        },
+        {
+            "id": 2,
+            "word": "koori",
+            "meaning": "ice"
+        },
+        {
+            "id": 3,
+            "word": "yuge",
+            "meaning": "steam"
+        },
+        {
+            "id": 4,
+            "word": "hi",
+            "meaning": "fire"
+        },
+        {
+            "id": 5,
+            "word": "gasu",
+            "meaning": "gas"
+        },
+        {
+            "id": 6,
+            "word": "kuuki",
+            "meaning": "air, atmosphere"
+        },
+        {
+            "id": 7,
+            "word": "tsuchi",
+            "meaning": "earth, ground"
+        },
+        {
+            "id": 8,
+            "word": "kinzoku",
+            "meaning": "metal, metallic"
+        },
+        {
+            "id": 9,
+            "word": "doro",
+            "meaning": "mud, mire, clay, plaster"
+        },
+        {
+            "id": 10,
+            "word": "kemuri",
+            "meaning": "smoke, tobacco, opium"
+        },
+        {
+            "id": 11,
+            "word": "tetsu",
+            "meaning": "iron [Fe]"
+        },
+        {
+            "id": 12,
+            "word": "doo",
+            "meaning": "copper [Cu]"
+        },
+        {
+            "id": 13,
+            "word": "kin",
+            "meaning": "gold [Au]; money"
+        },
+        {
+            "id": 14,
+            "word": "gin",
+            "meaning": "silver [Ag]; wealth"
+        },
+        {
+            "id": 15,
+            "word": "namari",
+            "meaning": "lead [Pb]"
+        },
+        {
+            "id": 16,
+            "word": "shio",
+            "meaning": "salt [NaCl]"
+        }
+    ],
+    "$type": "WordPack"
+}

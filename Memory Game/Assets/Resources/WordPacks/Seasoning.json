@@ -1,0 +1,22 @@
+{
+    "wordPackName": "Seasoning",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "satoo",
+            "meaning": "sugar"
+        },
+        {
+            "id": 1,
+            "word": "shio",
+            "meaning": "salt"
+        },
+        {
+            "id": 2,
+            "word": "shooyu",
+            "meaning": "soy sauce"
+        }
+    ],
+    "$type": "WordPack"
+}

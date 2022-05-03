@@ -21,7 +21,7 @@ public static class Scheduler {
 	 */
 	
 	
-	public static int lastMatch = -1; // make sure we don't show the same word twice
+	static int lastMatch = -1; // make sure we don't show the same word twice
 
 	static float RecallProbability(float forgettingRate, DateTime currentTime, DateTime lastReviewTime) {
 		return Mathf.Pow(2, -forgettingRate * (float)(currentTime - lastReviewTime).TotalMinutes);
@@ -76,6 +76,41 @@ public static class Scheduler {
 		return weights;
 	}
 
+	
+
+	// We want the user to feel like they mastered a word if they recalled it 20 times correctly, and recalled it more correctly than wrong
+	public static bool isMastered(DataSaver.UserWordPairProgress progress) {
+		var correctCount = Mathf.Min(progress.GetCorrect(true), progress.GetCorrect(false));
+		var wrongCount = Mathf.Max(progress.GetWrong(true), progress.GetWrong(false));
+
+		return (correctCount > 20) && (correctCount > wrongCount * 3);
+	}
+
+	
+	// We want the word to need practice if the recall change of either side is less than 70%
+	public static bool needPractice(DataSaver.UserWordPairProgress progress) {
+		DateTime currentTime = DateTime.Now;
+		
+		var forgetRate1 =  ForgettingRate(
+			progress.GetCorrect(true), progress.GetWrong(true), 
+			progress.GetCorrect(false), progress.GetWrong(false)
+		);
+		var recallTime1 = DateTime.FromFileTimeUtc(progress.GetLastRecallUtcFileTime(true));
+		var recallProb1 = RecallProbability(forgetRate1, currentTime, recallTime1);
+		
+			
+		var forgetRate2 =  ForgettingRate(
+			progress.GetCorrect(false), progress.GetWrong(false), 
+			progress.GetCorrect(true), progress.GetWrong(true)
+		);
+		var recallTime2 = DateTime.FromFileTimeUtc(progress.GetLastRecallUtcFileTime(false));
+		var recallProb2 = RecallProbability(forgetRate2, currentTime, recallTime2);
+
+		var leastRecallProb = Mathf.Min(recallProb1, recallProb2);
+
+		return leastRecallProb < 0.7f;
+	}
+
 	static int GetReviewWord(DataSaver.UserWordPackProgress progress, bool isMeaningSide, bool includeNewWord) {
 		var weights = GenerateWeights(progress, isMeaningSide, includeNewWord);
 
@@ -97,7 +132,7 @@ public static class Scheduler {
 
 	static int GetNewWord(WordPack wordData, DataSaver.UserWordPackProgress progress, bool isMeaningSide) {
 		for (int i = 0; i < wordData.wordPairs.Count; i++) {
-			if (progress.GetWordPairData(i).type == 0) {
+			if (progress.GetWordPairData(wordData.wordPairs[i]).type == 0) {
 				return i;
 			}
 		}
@@ -105,7 +140,7 @@ public static class Scheduler {
 		return -1;
 	}
 	
-	public static int GetNextWordPairIndex(WordPack wordData, DataSaver.UserWordPackProgress progress, bool isMeaningSide) {
+	public static WordPair GetNextWordPairIndex(WordPack wordData, DataSaver.UserWordPackProgress progress, bool isMeaningSide) {
 		var nextMatch = GetReviewWord(progress, isMeaningSide, true);
 		
 		if (nextMatch == -1) { // If we get -1, it means we picked new word! so get a new word
@@ -116,13 +151,13 @@ public static class Scheduler {
 			nextMatch = GetReviewWord(progress, isMeaningSide, false);
 		}
 
-		return nextMatch;
+		return wordData.wordPairs[nextMatch];
 	}
 	
 	
-	public static void RegisterResult(WordPack wordData, DataSaver.UserWordPackProgress progress, int wordIndex, bool isMeaningSide, bool isCorrect) {
-		progress.GetWordPairData(wordIndex).type = 1;
-		progress.GetWordPairData(wordIndex).Increment(isMeaningSide, isCorrect);
+	public static void RegisterResult(WordPack wordData, DataSaver.UserWordPackProgress progress, WordPair wordPair, bool isMeaningSide, bool isCorrect) {
+		progress.GetWordPairData(wordPair).type = 1;
+		progress.GetWordPairData(wordPair).Increment(isMeaningSide, isCorrect);
 		
 		DataSaver.s.SaveActiveGame();
 	}

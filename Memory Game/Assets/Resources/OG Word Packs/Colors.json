@@ -1,0 +1,54 @@
+{
+    "wordPackName": "Colors",
+    "wordPairs": [
+        {
+            "word": "iro, shikisai",
+            "meaning": "color"
+        },
+        {
+            "word": "aka",
+            "meaning": "red"
+        },
+        {
+            "word": "kiiro",
+            "meaning": "yellow"
+        },
+        {
+            "word": "midori",
+            "meaning": "green"
+        },
+        {
+            "word": "ao",
+            "meaning": "blue"
+        },
+        {
+            "word": "murasaki, murasakiiro",
+            "meaning": "purple"
+        },
+        {
+            "word": "shiro",
+            "meaning": "white"
+        },
+        {
+            "word": "kuro",
+            "meaning": "black"
+        },
+        {
+            "word": "pinku",
+            "meaning": "pink"
+        },
+        {
+            "word": "chairo",
+            "meaning": "brown"
+        },
+        {
+            "word": "haiiro, nezumiiro",
+            "meaning": "grey"
+        },
+        {
+            "word": "orenji",
+            "meaning": "orange"
+        }
+    ],
+    "$type": "WordPack"
+}

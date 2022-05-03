@@ -1,0 +1,127 @@
+{
+    "wordPackName": "Activities",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "au",
+            "meaning": "to meet, to interview"
+        },
+        {
+            "id": 1,
+            "word": "akeru",
+            "meaning": "to opentr, to unwraptr"
+        },
+        {
+            "id": 2,
+            "word": "asobu",
+            "meaning": "to play"
+        },
+        {
+            "id": 3,
+            "word": "atsumaru",
+            "meaning": "to gatherin"
+        },
+        {
+            "id": 4,
+            "word": "uru",
+            "meaning": "to sell"
+        },
+        {
+            "id": 5,
+            "word": "eru",
+            "meaning": "to obtain [some benefit or knowledge]"
+        },
+        {
+            "id": 6,
+            "word": "oru",
+            "meaning": "to breaktr, to foldtr"
+        },
+        {
+            "id": 7,
+            "word": "kau",
+            "meaning": "to buy"
+        },
+        {
+            "id": 8,
+            "word": "kiru\u2020",
+            "meaning": "to cut"
+        },
+        {
+            "id": 9,
+            "word": "kiru",
+            "meaning": "to wear [on the upper body]"
+        },
+        {
+            "id": 10,
+            "word": "haku",
+            "meaning": "to wear [on the lower body]"
+        },
+        {
+            "id": 11,
+            "word": "kaeru",
+            "meaning": "to changetr"
+        },
+        {
+            "id": 12,
+            "word": "kaeru",
+            "meaning": "to exchange, to substitute, to replace"
+        },
+        {
+            "id": 13,
+            "word": "shimeru",
+            "meaning": "to closetr"
+        },
+        {
+            "id": 14,
+            "word": "shimeru",
+            "meaning": "to tie, to fasten"
+        },
+        {
+            "id": 15,
+            "word": "shimeru",
+            "meaning": "to comprise, to account for"
+        },
+        {
+            "id": 16,
+            "word": "shiru\u2020",
+            "meaning": "to know"
+        },
+        {
+            "id": 17,
+            "word": "tsukareru",
+            "meaning": "to get tired"
+        },
+        {
+            "id": 18,
+            "word": "dekakeru",
+            "meaning": "to go out, to depart"
+        },
+        {
+            "id": 19,
+            "word": "hataraku",
+            "meaning": "to work [e.g., at a job]"
+        },
+        {
+            "id": 20,
+            "word": "hanasu",
+            "meaning": "to let go of"
+        },
+        {
+            "id": 21,
+            "word": "yasumu",
+            "meaning": "to rest, to take a break, to go to bed"
+        },
+        {
+            "id": 22,
+            "word": "wakareru",
+            "meaning": "to split intoin, to be divided"
+        },
+        {
+            "id": 23,
+            "word": "wakareru",
+            "meaning": "to partin, to separatein, to break upin"
+        }
+    ],
+    "$type": "WordPack"
+}

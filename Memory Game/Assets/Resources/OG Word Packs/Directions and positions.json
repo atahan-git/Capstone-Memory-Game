@@ -1,0 +1,78 @@
+{
+    "wordPackName": "Directions and positions",
+    "wordPairs": [
+        {
+            "word": "kita",
+            "meaning": "north"
+        },
+        {
+            "word": "higashi",
+            "meaning": "east"
+        },
+        {
+            "word": "minami",
+            "meaning": "south"
+        },
+        {
+            "word": "nishi",
+            "meaning": "west"
+        },
+        {
+            "word": "koko",
+            "meaning": "here"
+        },
+        {
+            "word": "soko",
+            "meaning": "there"
+        },
+        {
+            "word": "asoko",
+            "meaning": "over there"
+        },
+        {
+            "word": "migi",
+            "meaning": "right"
+        },
+        {
+            "word": "hidari",
+            "meaning": "left"
+        },
+        {
+            "word": "ue",
+            "meaning": "above, up"
+        },
+        {
+            "word": "shita",
+            "meaning": "below, down"
+        },
+        {
+            "word": "mae",
+            "meaning": "front"
+        },
+        {
+            "word": "ushiro",
+            "meaning": "behind"
+        },
+        {
+            "word": "mukoo",
+            "meaning": "the other side, opposite side"
+        },
+        {
+            "word": "naname",
+            "meaning": "diagonal"
+        },
+        {
+            "word": "temae",
+            "meaning": "nearer, more in front"
+        },
+        {
+            "word": "tooi",
+            "meaning": "far"
+        },
+        {
+            "word": "chikai",
+            "meaning": "near, close"
+        }
+    ],
+    "$type": "WordPack"
+}

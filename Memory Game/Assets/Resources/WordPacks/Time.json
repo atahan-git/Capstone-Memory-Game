@@ -1,0 +1,102 @@
+{
+    "wordPackName": "Time",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "jikan",
+            "meaning": "time"
+        },
+        {
+            "id": 1,
+            "word": "toki, ji",
+            "meaning": "~hours"
+        },
+        {
+            "id": 2,
+            "word": "koyomi, karendaa",
+            "meaning": "calendar"
+        },
+        {
+            "id": 3,
+            "word": "fun",
+            "meaning": "minute"
+        },
+        {
+            "id": 4,
+            "word": "byoo",
+            "meaning": "second"
+        },
+        {
+            "id": 5,
+            "word": "hi, nichi",
+            "meaning": "day"
+        },
+        {
+            "id": 6,
+            "word": "tsuki, gatsu",
+            "meaning": "month"
+        },
+        {
+            "id": 7,
+            "word": "toshi, nen",
+            "meaning": "year"
+        },
+        {
+            "id": 8,
+            "word": "kinoo, sakujitsu",
+            "meaning": "yesterday"
+        },
+        {
+            "id": 9,
+            "word": "kyoo",
+            "meaning": "today"
+        },
+        {
+            "id": 10,
+            "word": "ashita, asu, myoonichi",
+            "meaning": "tomorrow"
+        },
+        {
+            "id": 11,
+            "word": "asa",
+            "meaning": "morning"
+        },
+        {
+            "id": 12,
+            "word": "hiru",
+            "meaning": "afternoon"
+        },
+        {
+            "id": 13,
+            "word": "yuugata",
+            "meaning": "evening"
+        },
+        {
+            "id": 14,
+            "word": "ban",
+            "meaning": "evening"
+        },
+        {
+            "id": 15,
+            "word": "yoru",
+            "meaning": "evening, night"
+        },
+        {
+            "id": 16,
+            "word": "yoobi",
+            "meaning": "~day"
+        },
+        {
+            "id": 17,
+            "word": "shuu",
+            "meaning": "week"
+        },
+        {
+            "id": 18,
+            "word": "isshuukan",
+            "meaning": "one week"
+        }
+    ],
+    "$type": "WordPack"
+}

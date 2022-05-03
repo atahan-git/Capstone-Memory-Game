@@ -1,0 +1,38 @@
+{
+    "wordPackName": "Tools",
+    "wordPairs": [
+        {
+            "word": "kugi",
+            "meaning": "nail, spike"
+        },
+        {
+            "word": "himo",
+            "meaning": "string, cord"
+        },
+        {
+            "word": "nawa",
+            "meaning": "rope, string"
+        },
+        {
+            "word": "fukuro",
+            "meaning": "pocket, bag"
+        },
+        {
+            "word": "kaban",
+            "meaning": "leather bag"
+        },
+        {
+            "word": "kasa",
+            "meaning": "umbrella, parasol"
+        },
+        {
+            "word": "kagi",
+            "meaning": "door bolt, key"
+        },
+        {
+            "word": "chookoku",
+            "meaning": "sculpture, engraving"
+        }
+    ],
+    "$type": "WordPack"
+}

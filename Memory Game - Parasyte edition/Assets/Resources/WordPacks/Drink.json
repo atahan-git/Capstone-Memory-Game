@@ -1,0 +1,38 @@
+{
+    "wordPackName": "Drink",
+    "wordPairs": [
+        {
+            "word": "nomimono",
+            "meaning": "drink/beverage"
+        },
+        {
+            "word": "cha",
+            "meaning": "tea"
+        },
+        {
+            "word": "ocha",
+            "meaning": "green tea"
+        },
+        {
+            "word": "koohii",
+            "meaning": "coffee"
+        },
+        {
+            "word": "gyuunyuu",
+            "meaning": "milk"
+        },
+        {
+            "word": "mizu",
+            "meaning": "water"
+        },
+        {
+            "word": "biiru",
+            "meaning": "beer"
+        },
+        {
+            "word": "wain",
+            "meaning": "wine"
+        }
+    ],
+    "$type": "WordPack"
+}

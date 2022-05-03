@@ -1,0 +1,92 @@
+{
+    "wordPackName": "Conjunctive",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "oyobi",
+            "meaning": "and; as well as"
+        },
+        {
+            "id": 1,
+            "word": "ka",
+            "meaning": "whether"
+        },
+        {
+            "id": 2,
+            "word": "kamo",
+            "meaning": "might be, possible that"
+        },
+        {
+            "id": 3,
+            "word": "soshite",
+            "meaning": "and then"
+        },
+        {
+            "id": 4,
+            "word": "soretomo",
+            "meaning": "or"
+        },
+        {
+            "id": 5,
+            "word": "dano",
+            "meaning": "things like <list of things>, including, such things as"
+        },
+        {
+            "id": 6,
+            "word": "to",
+            "meaning": "when, if, that"
+        },
+        {
+            "id": 7,
+            "word": "nagara",
+            "meaning": "while, though, both"
+        },
+        {
+            "id": 8,
+            "word": "narabini",
+            "meaning": "as well as"
+        },
+        {
+            "id": 9,
+            "word": "nari",
+            "meaning": "whether or not"
+        },
+        {
+            "id": 10,
+            "word": "ni",
+            "meaning": "to <somewhere>, by <someone>"
+        },
+        {
+            "id": 11,
+            "word": "no",
+            "meaning": "possession"
+        },
+        {
+            "id": 12,
+            "word": "node",
+            "meaning": "so"
+        },
+        {
+            "id": 13,
+            "word": "mata",
+            "meaning": "also, again"
+        },
+        {
+            "id": 14,
+            "word": "matawa",
+            "meaning": "or alternatively"
+        },
+        {
+            "id": 15,
+            "word": "mo",
+            "meaning": "also, too"
+        },
+        {
+            "id": 16,
+            "word": "ya",
+            "meaning": "and"
+        }
+    ],
+    "$type": "WordPack"
+}

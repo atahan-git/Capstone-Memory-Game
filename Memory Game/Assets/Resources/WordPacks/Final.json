@@ -1,0 +1,37 @@
+{
+    "wordPackName": "Final",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "ne",
+            "meaning": "emphasis and question marker, equivalent to \"right?\""
+        },
+        {
+            "id": 1,
+            "word": "ka",
+            "meaning": "question marker"
+        },
+        {
+            "id": 2,
+            "word": "na",
+            "meaning": "the copula particle used after quasi-adjectives"
+        },
+        {
+            "id": 3,
+            "word": "kashira",
+            "meaning": "I wonder"
+        },
+        {
+            "id": 4,
+            "word": "sa",
+            "meaning": "-ness"
+        },
+        {
+            "id": 5,
+            "word": "-kke",
+            "meaning": "particle indicating that the speaker is trying to recall some information [\"What class is next -kke?\"]"
+        }
+    ],
+    "$type": "WordPack"
+}

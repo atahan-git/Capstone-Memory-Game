@@ -1,0 +1,70 @@
+{
+    "wordPackName": "Society",
+    "wordPairs": [
+        {
+            "word": "shakai",
+            "meaning": "society"
+        },
+        {
+            "word": "keizai",
+            "meaning": "economy, economics"
+        },
+        {
+            "word": "kaisha",
+            "meaning": "company"
+        },
+        {
+            "word": "kaigi",
+            "meaning": "meeting"
+        },
+        {
+            "word": "gakkoo",
+            "meaning": "school"
+        },
+        {
+            "word": "yakusho",
+            "meaning": "local government office"
+        },
+        {
+            "word": "mise",
+            "meaning": "store"
+        },
+        {
+            "word": "hoteru",
+            "meaning": "hotel"
+        },
+        {
+            "word": "koojoo",
+            "meaning": "factory"
+        },
+        {
+            "word": "kane, most commonly o-kane",
+            "meaning": "money"
+        },
+        {
+            "word": "satsu",
+            "meaning": "bill [of money, e.g., a thousand-yen bill]"
+        },
+        {
+            "word": "kozeni",
+            "meaning": "small change"
+        },
+        {
+            "word": "tsurisen, change",
+            "meaning": "change"
+        },
+        {
+            "word": "jidoohanbaiki",
+            "meaning": "vending machine, slot machine"
+        },
+        {
+            "word": "public transport, fine",
+            "meaning": "ticket"
+        },
+        {
+            "word": "kitte",
+            "meaning": "stamp"
+        }
+    ],
+    "$type": "WordPack"
+}

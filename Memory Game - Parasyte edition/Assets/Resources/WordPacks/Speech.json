@@ -1,0 +1,26 @@
+{
+    "wordPackName": "Speech",
+    "wordPairs": [
+        {
+            "word": "iu",
+            "meaning": "to say"
+        },
+        {
+            "word": "hanasu",
+            "meaning": "to speak"
+        },
+        {
+            "word": "kataru",
+            "meaning": "to tell"
+        },
+        {
+            "word": "kaku",
+            "meaning": "to write"
+        },
+        {
+            "word": "yomu",
+            "meaning": "to read"
+        }
+    ],
+    "$type": "WordPack"
+}

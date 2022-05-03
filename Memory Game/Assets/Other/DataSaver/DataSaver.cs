@@ -11,7 +11,8 @@ public class DataSaver {
 
 	public static DataSaver s;
 
-	public SaveFile activeSave;
+	[SerializeField]
+	private SaveFile activeSave;
 	public const string saveName = "save.data";
 
 	public bool loadingComplete = false;
@@ -40,6 +41,7 @@ public class DataSaver {
 	
 	public SaveFile MakeNewSaveFile() {
 		var file = new SaveFile();
+		PlayerLoadoutController.SetDefaultLoadoutWordPacks(file);
 		file.isRealSaveFile = true;
 		return file;
 	}
@@ -120,8 +122,24 @@ public class DataSaver {
 	[Serializable]
 	public class SaveFile {
 		public bool isRealSaveFile = false;
+		public bool isDefaultWordPacksLoaded = false;
 
-		public List<UserWordPackProgress> wordPackData = new List<UserWordPackProgress>();
+		public string[] loadoutWordPackNames = new string[3];
+
+		[SerializeField]
+		private List<UserWordPackProgress> wordPackData = new List<UserWordPackProgress>();
+		
+		public UserWordPackProgress GetProgress(WordPack wordPack) {
+			var index = wordPackData.FindIndex((progress => progress.wordPackName == wordPack.wordPackName));
+			if (index != -1) {
+				return wordPackData[index];
+			} else {
+				var progress = new UserWordPackProgress();
+				progress.wordPackName = wordPack.wordPackName;
+				wordPackData.Add(progress);
+				return progress;
+			}
+		}
 	}
 	
 	
@@ -130,15 +148,17 @@ public class DataSaver {
 		public string wordPackName;
 		public List<UserWordPairProgress> wordPairData = new List<UserWordPairProgress>();
 
-		public UserWordPairProgress GetWordPairData (int index) {
-			var dat = wordPairData;
-			if (dat.Count > index) {
-				return dat[index];
+		public UserWordPairProgress GetWordPairData (WordPair wordPair) {
+			return GetWordPairData(wordPair.id);
+		}
+		UserWordPairProgress GetWordPairData (int wordPairId) {
+			if (wordPairData.Count > wordPairId) {
+				return wordPairData[wordPairId];
 			} else {
-				while (dat.Count <= index) {
-					dat.Add(new UserWordPairProgress());
+				while (wordPairData.Count <= wordPairId) {
+					wordPairData.Add(new UserWordPairProgress());
 				}
-				return dat[index];
+				return wordPairData[wordPairId];
 			}
 		}
 		

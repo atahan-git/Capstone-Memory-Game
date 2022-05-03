@@ -1,0 +1,50 @@
+{
+    "wordPackName": "Emotions",
+    "wordPairs": [
+        {
+            "word": "kanashimu",
+            "meaning": "to be sad"
+        },
+        {
+            "word": "naku",
+            "meaning": "to cry"
+        },
+        {
+            "word": "warau",
+            "meaning": "to laugh"
+        },
+        {
+            "word": "okoru",
+            "meaning": "to be angry"
+        },
+        {
+            "word": "homeru",
+            "meaning": "to encourage"
+        },
+        {
+            "word": "shikaru",
+            "meaning": "to scold"
+        },
+        {
+            "word": "yorokobu",
+            "meaning": "to celebrate, to be jubilant, to have joy, to have delight, to have rapture"
+        },
+        {
+            "word": "yorokobi",
+            "meaning": "joy, delight, rapture"
+        },
+        {
+            "word": "nagusameru",
+            "meaning": "to console, to consolate, to provide empathy"
+        },
+        {
+            "word": "akiru",
+            "meaning": "to be disinterested, to be bored, to be tired of, to be weary"
+        },
+        {
+            "word": "odoroku",
+            "meaning": "to be astonished, to be surprised, to be scared"
+        }
+    ],
+    "$type": "WordPack"
+}

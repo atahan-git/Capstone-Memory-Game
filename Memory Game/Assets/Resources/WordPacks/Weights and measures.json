@@ -1,0 +1,42 @@
+{
+    "wordPackName": "Weights and measures",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "meetoru",
+            "meaning": "meter"
+        },
+        {
+            "id": 1,
+            "word": "rittoru",
+            "meaning": "litre"
+        },
+        {
+            "id": 2,
+            "word": "guramu",
+            "meaning": "gram"
+        },
+        {
+            "id": 3,
+            "word": "kiro",
+            "meaning": "kilo-"
+        },
+        {
+            "id": 4,
+            "word": "miri",
+            "meaning": "milli-"
+        },
+        {
+            "id": 5,
+            "word": "senchi",
+            "meaning": "centimeter"
+        },
+        {
+            "id": 6,
+            "word": "inchi",
+            "meaning": "inch"
+        }
+    ],
+    "$type": "WordPack"
+}

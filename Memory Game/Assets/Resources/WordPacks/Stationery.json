@@ -1,0 +1,87 @@
+{
+    "wordPackName": "Stationery",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "inku",
+            "meaning": "ink"
+        },
+        {
+            "id": 1,
+            "word": "pen",
+            "meaning": "pen"
+        },
+        {
+            "id": 2,
+            "word": "boorupen",
+            "meaning": "ball-point pen"
+        },
+        {
+            "id": 3,
+            "word": "mannenhitsu",
+            "meaning": "fountain pen"
+        },
+        {
+            "id": 4,
+            "word": "enpitsu",
+            "meaning": "pencil"
+        },
+        {
+            "id": 5,
+            "word": "fude",
+            "meaning": "brush for writing or painting"
+        },
+        {
+            "id": 6,
+            "word": "chooku",
+            "meaning": "chalk"
+        },
+        {
+            "id": 7,
+            "word": "keshigomu",
+            "meaning": "eraser"
+        },
+        {
+            "id": 8,
+            "word": "enpitsu-kezuri",
+            "meaning": "pencil sharpener"
+        },
+        {
+            "id": 9,
+            "word": "joogi",
+            "meaning": "ruler"
+        },
+        {
+            "id": 10,
+            "word": "nooto",
+            "meaning": "notebook"
+        },
+        {
+            "id": 11,
+            "word": "nikki",
+            "meaning": "diary"
+        },
+        {
+            "id": 12,
+            "word": "kabaa",
+            "meaning": "book cover"
+        },
+        {
+            "id": 13,
+            "word": "fuutoo",
+            "meaning": "envelope"
+        },
+        {
+            "id": 14,
+            "word": "hasami",
+            "meaning": "scissors"
+        },
+        {
+            "id": 15,
+            "word": "hotchikisu",
+            "meaning": "stapler"
+        }
+    ],
+    "$type": "WordPack"
+}

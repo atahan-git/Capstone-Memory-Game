@@ -1,0 +1,67 @@
+{
+    "wordPackName": "Clothes",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "fuku",
+            "meaning": "clothes"
+        },
+        {
+            "id": 1,
+            "word": "yoofuku",
+            "meaning": "western clothing"
+        },
+        {
+            "id": 2,
+            "word": "kimono",
+            "meaning": "kimono"
+        },
+        {
+            "id": 3,
+            "word": "wafuku",
+            "meaning": "Japanese clothing"
+        },
+        {
+            "id": 4,
+            "word": "sode",
+            "meaning": "sleeve"
+        },
+        {
+            "id": 5,
+            "word": "eri",
+            "meaning": "lapel, collar"
+        },
+        {
+            "id": 6,
+            "word": "botan",
+            "meaning": "button"
+        },
+        {
+            "id": 7,
+            "word": "chakku, fasunaa, jippaa",
+            "meaning": "zipper, zipper fastener"
+        },
+        {
+            "id": 8,
+            "word": "beruto",
+            "meaning": "belt"
+        },
+        {
+            "id": 9,
+            "word": "kutsu",
+            "meaning": "shoe"
+        },
+        {
+            "id": 10,
+            "word": "kutsushita",
+            "meaning": "sock"
+        },
+        {
+            "id": 11,
+            "word": "megane",
+            "meaning": "glasses"
+        }
+    ],
+    "$type": "WordPack"
+}

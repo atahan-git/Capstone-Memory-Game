@@ -6,8 +6,13 @@ using UnityEngine.SceneManagement;
 
 public class SceneLoader : MonoBehaviour {
     public static SceneLoader s;
+
+    public Camera ScreenSpaceCanvasCamera;
     
-    public SceneReference mainScene;
+    [SerializeField]
+    private SceneReference mainMenu;
+    
+    public SceneReference playScene;
     
     [SerializeField]
     private SceneReference initialScene;
@@ -29,7 +34,7 @@ public class SceneLoader : MonoBehaviour {
             DontDestroyOnLoad(gameObject);
 
             if (SceneManager.GetActiveScene().path == initialScene.ScenePath) {
-                LoadScene(mainScene);
+                LoadScene(mainMenu);
             } else {
                 loadingScreen.SetActive(false);
             }
@@ -44,18 +49,16 @@ public class SceneLoader : MonoBehaviour {
     public CanvasGroup canvasGroup;
 
 
-    public void OpenProfileScreen() {
-        isLevelFinished = false;
-        isLevelStarted = false;
-        isProfileMenu = true;
-        LoadScene(mainScene);
-    }
     
-    public void BackToMenu() {
+    public void LoadMenuScene() {
         isLevelFinished = false;
         isLevelStarted = false;
         isProfileMenu = false;
-        LoadScene(mainScene);
+        LoadScene(mainMenu);
+    }
+
+    public void LoadPlayScene() {
+        LoadScene(playScene);
     }
 
     public static float loadingProgress;

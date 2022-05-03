@@ -1,0 +1,287 @@
+{
+    "wordPackName": "Animals",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "doobutsu",
+            "meaning": "animal"
+        },
+        {
+            "id": 1,
+            "word": "chiitaa",
+            "meaning": "cheetah"
+        },
+        {
+            "id": 2,
+            "word": "inu",
+            "meaning": "dog"
+        },
+        {
+            "id": 3,
+            "word": "neko",
+            "meaning": "cat"
+        },
+        {
+            "id": 4,
+            "word": "ushi",
+            "meaning": "cow"
+        },
+        {
+            "id": 5,
+            "word": "buta",
+            "meaning": "pig"
+        },
+        {
+            "id": 6,
+            "word": "uma",
+            "meaning": "horse"
+        },
+        {
+            "id": 7,
+            "word": "hitsuji",
+            "meaning": "sheep"
+        },
+        {
+            "id": 8,
+            "word": "saru",
+            "meaning": "monkey"
+        },
+        {
+            "id": 9,
+            "word": "nezumi",
+            "meaning": "mouse, rat"
+        },
+        {
+            "id": 10,
+            "word": "tora",
+            "meaning": "tiger"
+        },
+        {
+            "id": 11,
+            "word": "ookami",
+            "meaning": "wolf"
+        },
+        {
+            "id": 12,
+            "word": "usagi",
+            "meaning": "rabbit"
+        },
+        {
+            "id": 13,
+            "word": "ryuu, tatsu",
+            "meaning": "dragon"
+        },
+        {
+            "id": 14,
+            "word": "shika",
+            "meaning": "deer"
+        },
+        {
+            "id": 15,
+            "word": "kaeru",
+            "meaning": "frog"
+        },
+        {
+            "id": 16,
+            "word": "gama",
+            "meaning": "toad"
+        },
+        {
+            "id": 17,
+            "word": "shishi",
+            "meaning": "lion"
+        },
+        {
+            "id": 18,
+            "word": "kirin",
+            "meaning": "giraffe"
+        },
+        {
+            "id": 19,
+            "word": "zoo",
+            "meaning": "elephant"
+        },
+        {
+            "id": 20,
+            "word": "tori",
+            "meaning": "bird"
+        },
+        {
+            "id": 21,
+            "word": "niwatori",
+            "meaning": "chicken"
+        },
+        {
+            "id": 22,
+            "word": "suzume",
+            "meaning": "sparrow"
+        },
+        {
+            "id": 23,
+            "word": "karasu",
+            "meaning": "crow, raven"
+        },
+        {
+            "id": 24,
+            "word": "washi",
+            "meaning": "eagle"
+        },
+        {
+            "id": 25,
+            "word": "taka",
+            "meaning": "hawk, falcon"
+        },
+        {
+            "id": 26,
+            "word": "sakana",
+            "meaning": "fish"
+        },
+        {
+            "id": 27,
+            "word": "tai",
+            "meaning": "red snapper"
+        },
+        {
+            "id": 28,
+            "word": "ebi",
+            "meaning": "shrimp, lobster"
+        },
+        {
+            "id": 29,
+            "word": "iwashi",
+            "meaning": "sardine"
+        },
+        {
+            "id": 30,
+            "word": "maguro",
+            "meaning": "tuna"
+        },
+        {
+            "id": 31,
+            "word": "katsuo",
+            "meaning": "bonito"
+        },
+        {
+            "id": 32,
+            "word": "sanma",
+            "meaning": "pike"
+        },
+        {
+            "id": 33,
+            "word": "aji",
+            "meaning": "horse mackerel"
+        },
+        {
+            "id": 34,
+            "word": "saba",
+            "meaning": "mackerel"
+        },
+        {
+            "id": 35,
+            "word": "ika",
+            "meaning": "squid"
+        },
+        {
+            "id": 36,
+            "word": "tako",
+            "meaning": "octopus"
+        },
+        {
+            "id": 37,
+            "word": "mushi",
+            "meaning": "insect"
+        },
+        {
+            "id": 38,
+            "word": "choo",
+            "meaning": "butterfly"
+        },
+        {
+            "id": 39,
+            "word": "ga",
+            "meaning": "moth"
+        },
+        {
+            "id": 40,
+            "word": "semi",
+            "meaning": "cicada"
+        },
+        {
+            "id": 41,
+            "word": "tonbo",
+            "meaning": "dragonfly"
+        },
+        {
+            "id": 42,
+            "word": "batta",
+            "meaning": "grasshopper"
+        },
+        {
+            "id": 43,
+            "word": "kumo",
+            "meaning": "spider"
+        },
+        {
+            "id": 44,
+            "word": "hotaru",
+            "meaning": "firefly"
+        },
+        {
+            "id": 45,
+            "word": "hae",
+            "meaning": "housefly"
+        },
+        {
+            "id": 46,
+            "word": "ka",
+            "meaning": "mosquito, gnat"
+        },
+        {
+            "id": 47,
+            "word": "gokiburi",
+            "meaning": "cockroach"
+        },
+        {
+            "id": 48,
+            "word": "katatsumuri",
+            "meaning": "snail"
+        },
+        {
+            "id": 49,
+            "word": "namekuji",
+            "meaning": "slug"
+        },
+        {
+            "id": 50,
+            "word": "mimizu",
+            "meaning": "earthworm"
+        },
+        {
+            "id": 51,
+            "word": "kai",
+            "meaning": "shellfish"
+        },
+        {
+            "id": 52,
+            "word": "kaigara",
+            "meaning": "shell"
+        },
+        {
+            "id": 53,
+            "word": "tokage",
+            "meaning": "lizard"
+        },
+        {
+            "id": 54,
+            "word": "hebi",
+            "meaning": "snake"
+        },
+        {
+            "id": 55,
+            "word": "kuma",
+            "meaning": "bear"
+        }
+    ],
+    "$type": "WordPack"
+}

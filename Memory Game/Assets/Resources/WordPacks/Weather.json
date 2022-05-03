@@ -1,0 +1,72 @@
+{
+    "wordPackName": "Weather",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "taiyoo",
+            "meaning": "sun"
+        },
+        {
+            "id": 1,
+            "word": "tsuki",
+            "meaning": "moon"
+        },
+        {
+            "id": 2,
+            "word": "hoshi",
+            "meaning": "star"
+        },
+        {
+            "id": 3,
+            "word": "tenki",
+            "meaning": "weather"
+        },
+        {
+            "id": 4,
+            "word": "hare",
+            "meaning": "clear weather"
+        },
+        {
+            "id": 5,
+            "word": "ame",
+            "meaning": "rain"
+        },
+        {
+            "id": 6,
+            "word": "kumori",
+            "meaning": "cloudy"
+        },
+        {
+            "id": 7,
+            "word": "yuki",
+            "meaning": "snow"
+        },
+        {
+            "id": 8,
+            "word": "kaze",
+            "meaning": "wind"
+        },
+        {
+            "id": 9,
+            "word": "kaminari",
+            "meaning": "thunder, lightning"
+        },
+        {
+            "id": 10,
+            "word": "taifuu",
+            "meaning": "typhoon"
+        },
+        {
+            "id": 11,
+            "word": "arashi",
+            "meaning": "storm"
+        },
+        {
+            "id": 12,
+            "word": "sora",
+            "meaning": "sky"
+        }
+    ],
+    "$type": "WordPack"
+}

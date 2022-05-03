@@ -1,0 +1,97 @@
+{
+    "wordPackName": "Abstract nouns",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "kore",
+            "meaning": "this, it"
+        },
+        {
+            "id": 1,
+            "word": "sore",
+            "meaning": "that"
+        },
+        {
+            "id": 2,
+            "word": "are",
+            "meaning": "that over there"
+        },
+        {
+            "id": 3,
+            "word": "dore",
+            "meaning": "which"
+        },
+        {
+            "id": 4,
+            "word": "kochira, kocchi",
+            "meaning": "this direction, thing, person, or place"
+        },
+        {
+            "id": 5,
+            "word": "sochira, socchi",
+            "meaning": "that direction, thing, person, or place"
+        },
+        {
+            "id": 6,
+            "word": "achira, acchi",
+            "meaning": "that direction, thing, person, or place over there"
+        },
+        {
+            "id": 7,
+            "word": "dochira, docchi",
+            "meaning": "which direction, thing, person, or place"
+        },
+        {
+            "id": 8,
+            "word": "himitsu",
+            "meaning": "secret"
+        },
+        {
+            "id": 9,
+            "word": "jidoo",
+            "meaning": "automatic"
+        },
+        {
+            "id": 10,
+            "word": "naiyoo",
+            "meaning": "content"
+        },
+        {
+            "id": 11,
+            "word": "between two substances",
+            "meaning": "width, breadth, free room, difference"
+        },
+        {
+            "id": 12,
+            "word": "seishiki",
+            "meaning": "formality"
+        },
+        {
+            "id": 13,
+            "word": "kekkon",
+            "meaning": "marriage"
+        },
+        {
+            "id": 14,
+            "word": "genzai",
+            "meaning": "now"
+        },
+        {
+            "id": 15,
+            "word": "ima",
+            "meaning": "now"
+        },
+        {
+            "id": 16,
+            "word": "kako",
+            "meaning": "past"
+        },
+        {
+            "id": 17,
+            "word": "mirai",
+            "meaning": "future"
+        }
+    ],
+    "$type": "WordPack"
+}

@@ -1,0 +1,54 @@
+{
+    "wordPackName": "Clothes",
+    "wordPairs": [
+        {
+            "word": "fuku",
+            "meaning": "clothes"
+        },
+        {
+            "word": "yoofuku",
+            "meaning": "western clothing"
+        },
+        {
+            "word": "kimono",
+            "meaning": "kimono"
+        },
+        {
+            "word": "wafuku",
+            "meaning": "Japanese clothing"
+        },
+        {
+            "word": "sode",
+            "meaning": "sleeve"
+        },
+        {
+            "word": "eri",
+            "meaning": "lapel, collar"
+        },
+        {
+            "word": "botan",
+            "meaning": "button"
+        },
+        {
+            "word": "chakku, fasunaa, jippaa",
+            "meaning": "zipper, zipper fastener"
+        },
+        {
+            "word": "beruto",
+            "meaning": "belt"
+        },
+        {
+            "word": "kutsu",
+            "meaning": "shoe"
+        },
+        {
+            "word": "kutsushita",
+            "meaning": "sock"
+        },
+        {
+            "word": "megane",
+            "meaning": "glasses"
+        }
+    ],
+    "$type": "WordPack"
+}

@@ -7,6 +7,7 @@ using UnityEngine;
 [Serializable]
 public class WordPack {
 	public string wordPackName = "unset";
+	public string wordPackAffinity = "unset";
 
 	public List<WordPair> wordPairs = new List<WordPair>();
 }

@@ -1,0 +1,47 @@
+{
+    "wordPackName": "Tools",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "kugi",
+            "meaning": "nail, spike"
+        },
+        {
+            "id": 1,
+            "word": "himo",
+            "meaning": "string, cord"
+        },
+        {
+            "id": 2,
+            "word": "nawa",
+            "meaning": "rope, string"
+        },
+        {
+            "id": 3,
+            "word": "fukuro",
+            "meaning": "pocket, bag"
+        },
+        {
+            "id": 4,
+            "word": "kaban",
+            "meaning": "leather bag"
+        },
+        {
+            "id": 5,
+            "word": "kasa",
+            "meaning": "umbrella, parasol"
+        },
+        {
+            "id": 6,
+            "word": "kagi",
+            "meaning": "door bolt, key"
+        },
+        {
+            "id": 7,
+            "word": "chookoku",
+            "meaning": "sculpture, engraving"
+        }
+    ],
+    "$type": "WordPack"
+}

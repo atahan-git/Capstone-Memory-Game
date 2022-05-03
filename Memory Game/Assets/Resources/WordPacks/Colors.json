@@ -1,0 +1,67 @@
+{
+    "wordPackName": "Colors",
+    "wordPackAffinity": "arcane",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "iro, shikisai",
+            "meaning": "color"
+        },
+        {
+            "id": 1,
+            "word": "aka",
+            "meaning": "red"
+        },
+        {
+            "id": 2,
+            "word": "kiiro",
+            "meaning": "yellow"
+        },
+        {
+            "id": 3,
+            "word": "midori",
+            "meaning": "green"
+        },
+        {
+            "id": 4,
+            "word": "ao",
+            "meaning": "blue"
+        },
+        {
+            "id": 5,
+            "word": "murasaki, murasakiiro",
+            "meaning": "purple"
+        },
+        {
+            "id": 6,
+            "word": "shiro",
+            "meaning": "white"
+        },
+        {
+            "id": 7,
+            "word": "kuro",
+            "meaning": "black"
+        },
+        {
+            "id": 8,
+            "word": "pinku",
+            "meaning": "pink"
+        },
+        {
+            "id": 9,
+            "word": "chairo",
+            "meaning": "brown"
+        },
+        {
+            "id": 10,
+            "word": "haiiro, nezumiiro",
+            "meaning": "grey"
+        },
+        {
+            "id": 11,
+            "word": "orenji",
+            "meaning": "orange"
+        }
+    ],
+    "$type": "WordPack"
+}

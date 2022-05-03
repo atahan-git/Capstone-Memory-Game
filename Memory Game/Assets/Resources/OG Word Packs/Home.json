@@ -1,0 +1,58 @@
+{
+    "wordPackName": "Home",
+    "wordPairs": [
+        {
+            "word": "tsukue",
+            "meaning": "desk"
+        },
+        {
+            "word": "isu",
+            "meaning": "chair, position"
+        },
+        {
+            "word": "tatami",
+            "meaning": "a tatami mat"
+        },
+        {
+            "word": "to",
+            "meaning": "door, family"
+        },
+        {
+            "word": "tobira",
+            "meaning": "door panel"
+        },
+        {
+            "word": "doa",
+            "meaning": "door"
+        },
+        {
+            "word": "mado",
+            "meaning": "window"
+        },
+        {
+            "word": "futon",
+            "meaning": "futon"
+        },
+        {
+            "word": "genkan",
+            "meaning": "entrance"
+        },
+        {
+            "word": "ie",
+            "meaning": "house, home"
+        },
+        {
+            "word": "erebeetaa",
+            "meaning": "elevator"
+        },
+        {
+            "word": "esukareetaa",
+            "meaning": "escalator"
+        },
+        {
+            "word": "denki",
+            "meaning": "electricity"
+        }
+    ],
+    "$type": "WordPack"
+}

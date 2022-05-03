@@ -1,0 +1,18 @@
+{
+    "wordPackName": "Seasoning",
+    "wordPairs": [
+        {
+            "word": "satoo",
+            "meaning": "sugar"
+        },
+        {
+            "word": "shio",
+            "meaning": "salt"
+        },
+        {
+            "word": "shooyu",
+            "meaning": "soy sauce"
+        }
+    ],
+    "$type": "WordPack"
+}

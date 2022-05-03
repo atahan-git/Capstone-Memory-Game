@@ -1,0 +1,87 @@
+{
+    "wordPackName": "Society",
+    "wordPackAffinity": "fire",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "shakai",
+            "meaning": "society"
+        },
+        {
+            "id": 1,
+            "word": "keizai",
+            "meaning": "economy, economics"
+        },
+        {
+            "id": 2,
+            "word": "kaisha",
+            "meaning": "company"
+        },
+        {
+            "id": 3,
+            "word": "kaigi",
+            "meaning": "meeting"
+        },
+        {
+            "id": 4,
+            "word": "gakkoo",
+            "meaning": "school"
+        },
+        {
+            "id": 5,
+            "word": "yakusho",
+            "meaning": "local government office"
+        },
+        {
+            "id": 6,
+            "word": "mise",
+            "meaning": "store"
+        },
+        {
+            "id": 7,
+            "word": "hoteru",
+            "meaning": "hotel"
+        },
+        {
+            "id": 8,
+            "word": "koojoo",
+            "meaning": "factory"
+        },
+        {
+            "id": 9,
+            "word": "kane, most commonly o-kane",
+            "meaning": "money"
+        },
+        {
+            "id": 10,
+            "word": "satsu",
+            "meaning": "bill [of money, e.g., a thousand-yen bill]"
+        },
+        {
+            "id": 11,
+            "word": "kozeni",
+            "meaning": "small change"
+        },
+        {
+            "id": 12,
+            "word": "tsurisen, change",
+            "meaning": "change"
+        },
+        {
+            "id": 13,
+            "word": "jidoohanbaiki",
+            "meaning": "vending machine, slot machine"
+        },
+        {
+            "id": 14,
+            "word": "public transport, fine",
+            "meaning": "ticket"
+        },
+        {
+            "id": 15,
+            "word": "kitte",
+            "meaning": "stamp"
+        }
+    ],
+    "$type": "WordPack"
+}

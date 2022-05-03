@@ -1,0 +1,42 @@
+{
+    "wordPackName": "Week Days",
+    "wordPackAffinity": "ice",
+    "wordPairs": [
+        {
+            "id": 0,
+            "word": "nichi-yoobi",
+            "meaning": "Sunday"
+        },
+        {
+            "id": 1,
+            "word": "getsu-yoobi",
+            "meaning": "Monday"
+        },
+        {
+            "id": 2,
+            "word": "ka-yoobi",
+            "meaning": "Tuesday"
+        },
+        {
+            "id": 3,
+            "word": "sui-yoobi",
+            "meaning": "Wednesday"
+        },
+        {
+            "id": 4,
+            "word": "moku-yoobi",
+            "meaning": "Thursday"
+        },
+        {
+            "id": 5,
+            "word": "kin-yoobi",
+            "meaning": "Friday"
+        },
+        {
+            "id": 6,
+            "word": "do-yoobi",
+            "meaning": "Saturday"
+        }
+    ],
+    "$type": "WordPack"
+}
