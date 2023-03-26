@@ -5,6 +5,12 @@ using Random = UnityEngine.Random;
 
 public static class Scheduler {
 	
+	/* Algorithm inspired by:
+	 * https://learning.mpi-sws.org/memorize/
+	 * https://github.com/ankitects/anki
+	 * https://github.com/slaypni/SM-15
+	 */
+	
 	/* We want to have our scheduler follow some guidelines and be random:
 	 *	- The more "forgotten" a word is the more likely it can be shown
 	 *  - When all of the words are mostly remembered there should be a chance of learning a new word.
@@ -140,7 +146,7 @@ public static class Scheduler {
 		return -1;
 	}
 	
-	public static WordPair GetNextWordPairIndex(WordPack wordData, DataSaver.UserWordPackProgress progress, bool isMeaningSide) {
+	public static WordPair GetNextWordPair(WordPack wordData, DataSaver.UserWordPackProgress progress, bool isMeaningSide) {
 		var nextMatch = GetReviewWord(progress, isMeaningSide, true);
 		
 		if (nextMatch == -1) { // If we get -1, it means we picked new word! so get a new word

@@ -33,24 +33,46 @@ public class WordSystemController : MonoBehaviour {
 	public bool isAOE = false;
 	public GameObject activeSpellPrefab;
 
-	public float wordPickTimer = 30f;
-	public float newWordTimer = 10f;
+	public float wordPickTimer = 60f;
+	//public float newWordTimer = 10f;
 	public float wrongWordTimer = 10f;
-	public float correctWordTimer = 1.6f;
+	public float correctWordTimer = 2f;
+	public float wordChangeDelay = 0.2f;
 	public int wordCountPerPack = 10;
 
 	public WordSystemSoundController soundController;
+	
+	public float slowDownSpeed = 0.01f;
+
+	public Slider manaSlider;
+	public float mana = 1f;
+	public float manaFillSpeed = 0.05f;
+	public float spellCastManaUse = 0.33f;
+
+	public GameObject notEnoughManaOverlay;
+	public GameObject alreadyCastingSpellOverlay;
 
 	private void Start() {
 		ChangeShootLane(0);
 		
 		MobileKeyboardCapturer.s.StartListening(TryMatchWord);
 		MobileKeyboardCapturer.s.valueChangedCallback += OnValueChanged;
+		StopWordMatchMode();
 	}
 
 	private void Update() {
 		if (Input.GetMouseButtonDown(1)) {
 			StopWordMatchMode();
+		}
+
+		mana += manaFillSpeed * Time.deltaTime;
+		mana = Mathf.Clamp01(mana);
+		manaSlider.value = mana;
+
+		if (alreadyCastingSpellOverlay.activeSelf) {
+			notEnoughManaOverlay.SetActive(false);
+		} else {
+			notEnoughManaOverlay.SetActive(mana < spellCastManaUse);
 		}
 	}
 
@@ -60,6 +82,12 @@ public class WordSystemController : MonoBehaviour {
 
 	public void ActivateWordPack(int buttonid) {
 		Debug.Log($"Activating word pack for button: {buttonid}");
+		
+		if(mana < spellCastManaUse)
+			return;
+
+		mana -= spellCastManaUse;
+		
 		//return;
 		StopWordMatchMode();
 		activeSide = buttonid >= 3;
@@ -78,7 +106,10 @@ public class WordSystemController : MonoBehaviour {
 
 	public void ActivateWordMatchMode() {
 		SwitchWord(true);
+		Time.timeScale = slowDownSpeed;
 		animWordDisplay.SetBool("isWord", true);
+		
+		alreadyCastingSpellOverlay.SetActive(true);
 	}
 
 	public void StopWordMatchMode() {
@@ -86,9 +117,10 @@ public class WordSystemController : MonoBehaviour {
 		animWordDisplay.ResetAllAnimatorTriggers();
 		animWordDisplay.SetBool("isWord", false);
 		//animWordDisplay.SetTrigger("reset");
+
+		Time.timeScale = 1;
 		
-		if(isNewWordPaused)
-			PauseController.s.Resume();
+		alreadyCastingSpellOverlay.SetActive(false);
 	}
 
 	public void BeginTimedSection() {
@@ -96,7 +128,6 @@ public class WordSystemController : MonoBehaviour {
 			activeTimer = StartCoroutine(timerToStart);
 	}
 
-	public float wordChangeDelay = 0.2f;
 	public void SwitchWord(bool isFirstTime = false) {
 		if(!isFirstTime)
 			animWordDisplay.SetTrigger("refreshWord");
@@ -112,7 +143,7 @@ public class WordSystemController : MonoBehaviour {
 		}
 
 		
-		activeWordPair = Scheduler.GetNextWordPairIndex(activeWordPack, activeUserProgress, activeSide);
+		activeWordPair = Scheduler.GetNextWordPair(activeWordPack, activeUserProgress, activeSide);
 
 		StartCoroutine(DelayedChangeWord(activeWordPair));
 		
@@ -130,7 +161,7 @@ public class WordSystemController : MonoBehaviour {
 	}
 
 	IEnumerator DelayedChangeWord(WordPair currentWord) {
-		yield return new WaitForSeconds(wordChangeDelay);
+		yield return new WaitForSeconds(wordChangeDelay*slowDownSpeed);
 		wordText.text = activeSide ? currentWord.word : currentWord.meaning;
 		meaningText.text = !activeSide ? currentWord.word : currentWord.meaning;
 	}
@@ -148,7 +179,6 @@ public class WordSystemController : MonoBehaviour {
 		timerToStart = null;
 	}
 
-	public bool isNewWordPaused = false;
 	public void NewWord() {
 		ClearState();
 		sliderFill.color = newColor;
@@ -156,11 +186,7 @@ public class WordSystemController : MonoBehaviour {
 		statusText.text = "New Word";
 		
 		animWordDisplay.SetTrigger("newWord");
-		
-		PauseController.s.Pause();
-		isNewWordPaused = true;
-		timeSlider.value = 1;
-		
+
 		soundController.NewWordSoundEffect();
 	}
 
@@ -238,6 +264,7 @@ public class WordSystemController : MonoBehaviour {
 	delegate void InputChecker(string inputChecker);
 
 	IEnumerator Timer(float time, Callback callback) {
+		time *= slowDownSpeed;
 		var timer = time;
 
 		while (timer > 0) {
@@ -282,24 +309,48 @@ public class WordSystemController : MonoBehaviour {
 
 
 	public void NewWordInputChecker(string word) {
+		if (word == "fix") {
+			FixWord();
+			return;
+		}
+		
 		if (IsMatch(word, meaningText.text)) {
 			Scheduler.RegisterResult(activeWordPack, activeUserProgress, activeWordPair, activeSide, true);
-			PauseController.s.Resume();
-			isNewWordPaused = false;
 			SwitchWord();
 		} else {
 			animWordDisplay.SetTrigger("wrong");
 		}
 	}
-	
+
 	public void StandardInputChecker(string word) {
 		if (!IsEmpty(word)) {
+			Debug.Log("DEBUG MATCHING OPTIONS PRESENT");
+			if (word == "y" || word == "c") {
+				CorrectMatch();
+				return;
+			} else if (word == "n" || word == "w") {
+				WrongMatch();
+				return;
+			}
+
+			if (word == "fix") {
+				FixWord();
+				return;
+			}
+
 			if (IsMatch(word, meaningText.text)) {
 				CorrectMatch();
+				return;
 			} else {
 				WrongMatch();
+				return;
 			}
 		}
+	}
+
+	public WordFixOverlay wordFixOverlay;
+	void FixWord() {
+		wordFixOverlay.Engage(activeWordPair);
 	}
 
 	public void TransitionInputChecker(string word) {

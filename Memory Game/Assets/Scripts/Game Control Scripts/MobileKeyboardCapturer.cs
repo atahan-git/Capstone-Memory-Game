@@ -41,7 +41,7 @@ public class MobileKeyboardCapturer : MonoBehaviour {
         inputField.ActivateInputField();
     }*/
 
-    public wordCapturedCallback valueChangedCallback;
+    public WordCapturedCallback valueChangedCallback;
     public void OnValueChanged() {
         /*if (inputField.Text.Contains("\n")) {
             OnEditEnd();
@@ -63,11 +63,10 @@ public class MobileKeyboardCapturer : MonoBehaviour {
     }
 
 
-    public delegate void wordCapturedCallback(string word);
-
-    private wordCapturedCallback _callback;
+    public delegate void WordCapturedCallback(string word);
+    private WordCapturedCallback _callback;
     private bool isListening = false;
-    public void StartListening(wordCapturedCallback callback) {
+    public void StartListening(WordCapturedCallback callback) {
         inputField.Text = "";
         _callback = callback;
         isListening = true;

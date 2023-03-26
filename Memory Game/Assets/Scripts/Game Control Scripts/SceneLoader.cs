@@ -48,7 +48,6 @@ public class SceneLoader : MonoBehaviour {
     public GameObject loadingScreen;
     public CanvasGroup canvasGroup;
 
-
     
     public void LoadMenuScene() {
         isLevelFinished = false;
